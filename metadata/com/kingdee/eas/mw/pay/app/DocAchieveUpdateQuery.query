@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.app</package>
+    <name>DocAchieveUpdateQuery</name>
+    <alias>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.mw.pay.DocAchieveUpdate</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>DocAchieveUpdate</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].subObjects.subEntity[DocAchieveUpdate].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdate" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>city</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].subObjects.subEntity[city].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CtrlUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>clinic</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].subObjects.subEntity[clinic].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>simpleName</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[simpleName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="simpleName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="simpleName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>docNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[docNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8e3b7dd9-cb76-454e-89c1-cf4c4244ed3a</key>
+                    <parentUnit>
+                        <key name="name" value="docNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="docNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>docName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[docName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>af20ad70-77e5-402b-9027-76b37ca1a414</key>
+                    <parentUnit>
+                        <key name="name" value="docName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="docName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>businessDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[businessDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>74dbf77e-9710-4ad6-ac3d-e022a9f2b821</key>
+                    <parentUnit>
+                        <key name="name" value="businessDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="businessDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>zzAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[zzAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ae0bceb7-45e0-49e3-be0d-bb975fa82999</key>
+                    <parentUnit>
+                        <key name="name" value="zzAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="zzAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>yxjzAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[yxjzAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a689306b-a544-43e6-8544-dc79e9849bd4</key>
+                    <parentUnit>
+                        <key name="name" value="yxjzAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="yxjzAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>gdjzAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[gdjzAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>366d7192-2eb2-4570-b4f8-69596c17de62</key>
+                    <parentUnit>
+                        <key name="name" value="gdjzAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="gdjzAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>knwAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[knwAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7f00c3e8-7b59-4a11-b25f-3248694807e2</key>
+                    <parentUnit>
+                        <key name="name" value="knwAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="knwAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xfAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[xfAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>08bfe365-6168-483a-8d77-b57f73278530</key>
+                    <parentUnit>
+                        <key name="name" value="xfAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xfAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>eyAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[eyAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>335b885b-2fb3-4ffd-96b0-a1f2cf66ad52</key>
+                    <parentUnit>
+                        <key name="name" value="eyAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="eyAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>yzAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[yzAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>441a7115-5ebf-4471-a6dd-d942fd864f56</key>
+                    <parentUnit>
+                        <key name="name" value="yzAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="yzAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>allAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[allAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1877a811-3299-4a77-aa1b-c88706dde4cd</key>
+                    <parentUnit>
+                        <key name="name" value="allAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="allAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>jzmoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[jzmoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f70d07bf-8b7c-4f9a-ab35-cb5625141531</key>
+                    <parentUnit>
+                        <key name="name" value="jzmoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="jzmoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>clinicNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinicNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6933ff84-9967-4816-b4d9-8800fed0b368</key>
+                    <parentUnit>
+                        <key name="name" value="clinicNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="clinicNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>clinicName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinicName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4c8cd965-ed0e-403a-a78f-a030d4b9e4ca</key>
+                    <parentUnit>
+                        <key name="name" value="clinicName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="clinicName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>mbAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[mbAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>fa8696d2-19bc-41ee-9f03-8113d9af9466</key>
+                    <parentUnit>
+                        <key name="name" value="mbAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="mbAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>cityNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[cityNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1410f44c-8b59-4727-8e44-d1bd2480e964</key>
+                    <parentUnit>
+                        <key name="name" value="cityNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cityNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>cityName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[cityName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1e45f42b-5b51-4363-8679-1f1a2d609546</key>
+                    <parentUnit>
+                        <key name="name" value="cityName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cityName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>city.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[city.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bdf8de04-94a0-4b8c-955d-7cd21187e149</key>
+                    <parentUnit>
+                        <key name="name" value="city.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="city" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>92c9d63a-3230-4693-9ef4-349b4903d2e5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[92c9d63a-3230-4693-9ef4-349b4903d2e5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>5b18f6fb-f62d-4d6f-ae21-0687483adc69</key>
+                    <parentUnit>
+                        <key name="name" value="92c9d63a-3230-4693-9ef4-349b4903d2e5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="city" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>f6454d72-5acc-48cc-bbd8-4c97df41f950</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[f6454d72-5acc-48cc-bbd8-4c97df41f950].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>fd40e89c-a5a4-456e-ac77-d37094a46562</key>
+                    <parentUnit>
+                        <key name="name" value="f6454d72-5acc-48cc-bbd8-4c97df41f950" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="city" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>iszidai</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[iszidai].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7b302bdc-9174-41a2-b098-b75967026101</key>
+                    <parentUnit>
+                        <key name="name" value="iszidai" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="iszidai" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>clinic.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinic.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>51ad8745-aec6-418b-8a5d-1137835569c6</key>
+                    <parentUnit>
+                        <key name="name" value="clinic.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="clinic" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>0de3b99f-c7fc-4344-b32c-f054ab37e177</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[0de3b99f-c7fc-4344-b32c-f054ab37e177].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>deda0399-b674-434a-9c73-88c07ff9b289</key>
+                    <parentUnit>
+                        <key name="name" value="0de3b99f-c7fc-4344-b32c-f054ab37e177" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DocAchieveUpdate" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="clinic" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>47a204ca-f3a5-4423-be73-22b626d98938</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[47a204ca-f3a5-4423-be73-22b626d98938].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>19d76376-3957-4a1f-a089-a07ef9b3304f</key>
+                    <parentUnit>
+                        <key name="name" value="47a204ca-f3a5-4423-be73-22b626d98938" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="clinic" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </propertyUnit>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.mw.pay.app" />
+            <key name="name" value="DocAchieveUpdateQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="DocAchieveUpdate" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="DocAchieveUpdate" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </join>
+        <join>
+            <name>35cbc90d-5c8c-4eae-8c7b-96c79cfa21a5</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DocAchieveUpdate" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="city" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>61e05de2-bf5b-4282-865f-3f4cd5a7e5de</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="92c9d63a-3230-4693-9ef4-349b4903d2e5" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="f6454d72-5acc-48cc-bbd8-4c97df41f950" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="35cbc90d-5c8c-4eae-8c7b-96c79cfa21a5" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </join>
+        <join>
+            <name>1a113e0c-63cd-4f4e-9687-19c77f3e9940</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DocAchieveUpdate" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="clinic" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>087bdd9e-46dd-4828-9917-554fa1bbb94c</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="0de3b99f-c7fc-4344-b32c-f054ab37e177" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="47a204ca-f3a5-4423-be73-22b626d98938" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="1a113e0c-63cd-4f4e-9687-19c77f3e9940" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="DocAchieveUpdateQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="医生业绩补充" />
+            <lang locale="zh_HK" value="醫生業績補充" />
+            <lang locale="zh_TW" value="醫生業績補充" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].defaultSorters.querySorterItemextendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].defaultSorters.querySorterItemextendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].defaultSorters.querySorterItemextendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].defaultSorters.querySorterItemextendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].defaultSorters.querySorterItemextendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单级基础资料查询" />
+            <lang locale="zh_HK" value="單級基礎資料查詢" />
+            <lang locale="zh_TW" value="單級基礎資料查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.PayResource.DocAchieveUpdateQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.PayResource.DocAchieveUpdateQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.PayResource.DocAchieveUpdateQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="医生业绩调整" />
+            <lang locale="zh_CN" value="医生业绩调整" />
+            <lang locale="zh_TW" value="医生业绩调整" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].subObjects.subEntity[DocAchieveUpdate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].subObjects.subEntity[city].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].subObjects.subEntity[clinic].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[0de3b99f-c7fc-4344-b32c-f054ab37e177].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[47a204ca-f3a5-4423-be73-22b626d98938].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[92c9d63a-3230-4693-9ef4-349b4903d2e5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.propertyUnit[f6454d72-5acc-48cc-bbd8-4c97df41f950].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[allAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合计" />
+            <lang locale="zh_HK" value="合計" />
+            <lang locale="zh_TW" value="合計" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[allAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[allAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[businessDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务期间(年月)" />
+            <lang locale="zh_HK" value="業務期間(年月)" />
+            <lang locale="zh_TW" value="業務期間(年月)" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[businessDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[businessDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[city.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[city.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[city.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[city.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[cityName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市名称" />
+            <lang locale="zh_HK" value="城市名稱" />
+            <lang locale="zh_TW" value="城市名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[cityName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[cityName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[cityNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市编码" />
+            <lang locale="zh_HK" value="城市編碼" />
+            <lang locale="zh_TW" value="城市編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[cityNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[cityNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinic.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊" />
+            <lang locale="zh_HK" value="門診" />
+            <lang locale="zh_TW" value="門診" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinic.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinic.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinic.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinicName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊名称" />
+            <lang locale="zh_HK" value="門診名稱" />
+            <lang locale="zh_TW" value="門診名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinicName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinicName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinicNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊编码" />
+            <lang locale="zh_HK" value="門診編碼" />
+            <lang locale="zh_TW" value="門診編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinicNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[clinicNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[createTime].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[createTime].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[createTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.number].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.number].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[creator.number].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[description].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[description].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[description].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[description].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[docName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="医生编码" />
+            <lang locale="zh_HK" value="醫生編碼" />
+            <lang locale="zh_TW" value="醫生編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[docName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[docName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[docNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="医生编码" />
+            <lang locale="zh_HK" value="醫生編碼" />
+            <lang locale="zh_TW" value="醫生編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[docNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[docNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[eyAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="儿牙业绩" />
+            <lang locale="zh_HK" value="兒牙業績" />
+            <lang locale="zh_TW" value="兒牙業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[eyAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[eyAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[gdjzAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定矫正业绩" />
+            <lang locale="zh_HK" value="固定矯正業績" />
+            <lang locale="zh_TW" value="固定矯正業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[gdjzAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[gdjzAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[id].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[id].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[id].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[id].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[id].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[iszidai].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否自带" />
+            <lang locale="zh_HK" value="是否自帶" />
+            <lang locale="zh_TW" value="是否自帶" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[iszidai].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[iszidai].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[jzmoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="奖金补差" />
+            <lang locale="zh_HK" value="獎金補差" />
+            <lang locale="zh_TW" value="獎金補差" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[jzmoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[jzmoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[knwAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="口内外业绩" />
+            <lang locale="zh_HK" value="口內外業績" />
+            <lang locale="zh_TW" value="口內外業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[knwAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[knwAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateTime].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateTime].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.number].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.number].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[lastUpdateUser.number].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[mbAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白业绩" />
+            <lang locale="zh_HK" value="美白業績" />
+            <lang locale="zh_TW" value="美白業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[mbAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[mbAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[number].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[number].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[number].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[simpleName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[simpleName].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[simpleName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[simpleName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[simpleName].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[simpleName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[xfAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修复业绩" />
+            <lang locale="zh_HK" value="修復業績" />
+            <lang locale="zh_TW" value="修復業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[xfAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[xfAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[yxjzAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="隐形矫正业绩" />
+            <lang locale="zh_HK" value="隱形矯正業績" />
+            <lang locale="zh_TW" value="隱形矯正業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[yxjzAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[yxjzAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[yzAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="牙周业绩" />
+            <lang locale="zh_HK" value="牙周業績" />
+            <lang locale="zh_TW" value="牙周業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[yzAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[yzAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[zzAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="种植业绩" />
+            <lang locale="zh_HK" value="種植業績" />
+            <lang locale="zh_TW" value="種植業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[zzAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.DocAchieveUpdateQuery].units.queryField[zzAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

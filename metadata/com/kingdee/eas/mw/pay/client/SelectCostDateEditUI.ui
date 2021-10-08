@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.client</package>
+    <name>SelectCostDateEditUI</name>
+    <alias>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.mw.pay.client</releasePackage>
+    <releaseClass>SelectCostDateEditUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <components>
+        <component>
+            <name>SelectCostDate</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[SelectCostDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,300,150</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>SelectCostDate_toolbar</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[SelectCostDate_toolbar].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDToolBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,30</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>FlowLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>SelectCostDate_menubar</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[SelectCostDate_menubar].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,28</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>kDDatePicker1</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[kDDatePicker1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDDatePicker</classType>
+            <isContainer>false</isContainer>
+            <constraints>115,34,170,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="SelectCostDate" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>dataChanged</name>
+                    <eventType>com.kingdee.bos.ctrl.swing.event.DataChangeEvent</eventType>
+                    <scene />
+                    <listenerType>com.kingdee.bos.ctrl.swing.event.DataChangeListener</listenerType>
+                    <listenerAdapter>com.kingdee.bos.ctrl.swing.event.DataChangeListener</listenerAdapter>
+                    <methodName>kDDatePicker1_dataChanged</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>kDLabel1</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[kDLabel1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabel</classType>
+            <isContainer>false</isContainer>
+            <constraints>26,34,100,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[kDLabel1].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="SelectCostDate" />
+            </parent>
+        </component>
+        <component>
+            <name>Butok</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[Butok].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>32,96,73,21</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[Butok].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="SelectCostDate" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>Butok_actionPerformed</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>Butno</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[Butno].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>200,95,73,21</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[Butno].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="SelectCostDate" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>Butno_actionPerformed</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+    </components>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生成成本选择日期" />
+            <lang locale="zh_HK" value="生成成本選擇日期" />
+            <lang locale="zh_TW" value="生成成本選擇日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[Butno].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[Butno].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="取消" />
+            <lang locale="zh_HK" value="取消" />
+            <lang locale="zh_TW" value="取消" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[Butok].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[Butok].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="确定" />
+            <lang locale="zh_HK" value="確定" />
+            <lang locale="zh_TW" value="確定" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[SelectCostDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[SelectCostDate_menubar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[SelectCostDate_toolbar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[kDDatePicker1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[kDLabel1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].components.component[kDLabel1].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务期间(年月)" />
+            <lang locale="zh_HK" value="業務期間(年月)" />
+            <lang locale="zh_TW" value="業務期間(年月)" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SelectCostDateEditUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生成成本选择日期" />
+            <lang locale="zh_HK" value="生成成本選擇日期" />
+            <lang locale="zh_TW" value="生成成本選擇日期" />
+        </rs>
+    </resource>
+</uiObject>
+

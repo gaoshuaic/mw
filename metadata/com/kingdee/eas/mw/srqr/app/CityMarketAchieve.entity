@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.srqr.app</package>
+    <name>CityMarketAchieve</name>
+    <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].alias</alias>
+    <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].description</description>
+    <userDefined>true</userDefined>
+    <bosType>64A8C70E</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.mw.srqr.CityMarketAchieve</businessImplName>
+    <businessControllerName>com.kingdee.eas.mw.srqr.app.CityMarketAchieveController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].description</description>
+            <innerID>0885db1d-e0b4-41a1-8c4b-3acdd3fecbb3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.CityMarketAchieve</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].description</description>
+            <innerID>43cb5d02-c96c-4c68-a3ad-1c4664a9d75e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.CityMarketAchieve</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].description</description>
+            <innerID>0d3c0c61-c6f5-402d-a338-d86e0dac4edb</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.CityMarketAchieve</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].description</description>
+            <innerID>f93d9a33-1cd3-4142-a28b-cb3c4cd3b35a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.CityMarketAchieve</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].description</description>
+            <innerID>0fffa24d-4079-41ca-91a0-18419f935b56</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.CityMarketAchieve</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].description</description>
+            <innerID>e1180606-b9ef-4443-8d9e-566d956dbfc5</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.CityMarketAchieve</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.mw.srqr.CityMarketAchieve</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="DataBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+        <key name="name" value="CT_SRQ_CityMarketAchieve" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>city</name>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFCityID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="R_CityMarketAchieve_CtrlUnit_city" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>tarachieve</name>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFTarachieve" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>relachieve</name>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFRelachieve" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>marketdep</name>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFMarketdepID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="R_CityMarketAchieve_PostType_marketdep" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>businessdate</name>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFBusinessdate" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市市场业绩" />
+            <lang locale="zh_HK" value="城市市場業績" />
+            <lang locale="zh_TW" value="城市市場業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewextendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewextendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewextendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.app.CityCompanyTargetQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.app.CityCompanyTargetQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.app.CityCompanyTargetQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewextendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.client.CityCompanyTargetEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.client.CityCompanyTargetEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.client.CityCompanyTargetEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewextendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewextendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewextendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewextendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].defaultViewextendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.client.CityCompanyTargetListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.client.CityCompanyTargetListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.client.CityCompanyTargetListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="單級基礎資料範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.app.CityMarketAchieveQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.app.CityMarketAchieveQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.app.CityMarketAchieveQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.client.CityMarketAchieveEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.client.CityMarketAchieveEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.client.CityMarketAchieveEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.genBusinessImplCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.client.CityMarketAchieveListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.client.CityMarketAchieveListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.client.CityMarketAchieveListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[city].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="市场部门" />
+            <lang locale="zh_HK" value="市場部門" />
+            <lang locale="zh_TW" value="市場部門" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="市场部门" />
+            <lang locale="zh_HK" value="市場部門" />
+            <lang locale="zh_TW" value="市場部門" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.linkProperty[marketdep].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务年月" />
+            <lang locale="zh_HK" value="業務年月" />
+            <lang locale="zh_TW" value="業務年月" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务年月" />
+            <lang locale="zh_HK" value="業務年月" />
+            <lang locale="zh_TW" value="業務年月" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[businessdate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际业绩" />
+            <lang locale="zh_HK" value="實際業績" />
+            <lang locale="zh_TW" value="實際業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际业绩" />
+            <lang locale="zh_HK" value="實際業績" />
+            <lang locale="zh_TW" value="實際業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[relachieve].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="目标业绩" />
+            <lang locale="zh_HK" value="目標業績" />
+            <lang locale="zh_TW" value="目標業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="目标业绩" />
+            <lang locale="zh_HK" value="目標業績" />
+            <lang locale="zh_TW" value="目標業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.CityMarketAchieve].properties.ownProperty[tarachieve].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

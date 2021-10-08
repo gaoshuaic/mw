@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.srqr.app</package>
+    <name>status</name>
+    <alias>bizEnum[com.kingdee.eas.mw.srqr.app.status].alias</alias>
+    <description>bizEnum[com.kingdee.eas.mw.srqr.app.status].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.mw.srqr.app.status</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>audit</name>
+            <alias>bizEnum[com.kingdee.eas.mw.srqr.app.status].enumValues.enumValue[audit].alias</alias>
+            <userDefined>true</userDefined>
+            <value>1</value>
+        </enumValue>
+        <enumValue>
+            <name>unaudit</name>
+            <alias>bizEnum[com.kingdee.eas.mw.srqr.app.status].enumValues.enumValue[unaudit].alias</alias>
+            <userDefined>true</userDefined>
+            <value>2</value>
+        </enumValue>
+        <enumValue>
+            <name>Cost</name>
+            <alias>bizEnum[com.kingdee.eas.mw.srqr.app.status].enumValues.enumValue[Cost].alias</alias>
+            <userDefined>true</userDefined>
+            <value>3</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.mw.srqr.app.status].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.mw.srqr.app.status].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.mw.srqr.app.status].enumValues.enumValue[Cost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出库核算" />
+            <lang locale="zh_HK" value="出庫核算" />
+            <lang locale="zh_TW" value="出庫核算" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.mw.srqr.app.status].enumValues.enumValue[audit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核" />
+            <lang locale="zh_HK" value="審核" />
+            <lang locale="zh_TW" value="審核" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.mw.srqr.app.status].enumValues.enumValue[unaudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审核" />
+            <lang locale="zh_HK" value="反審核" />
+            <lang locale="zh_TW" value="反審核" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.mw.srqr.app.status].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+

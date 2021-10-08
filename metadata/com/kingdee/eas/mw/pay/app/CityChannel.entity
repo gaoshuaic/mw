@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.app</package>
+    <name>CityChannel</name>
+    <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].alias</alias>
+    <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].description</description>
+    <userDefined>true</userDefined>
+    <bosType>EDEDC6A6</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.mw.pay.CityChannel</businessImplName>
+    <businessControllerName>com.kingdee.eas.mw.pay.app.CityChannelController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].description</description>
+            <innerID>3a2bd4ac-7b24-41d1-83f1-e1f51c229acd</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.CityChannel</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].description</description>
+            <innerID>1e42dff0-7779-4426-8bc8-3d7bc1138f36</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.CityChannel</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].description</description>
+            <innerID>0935843f-ca7e-4570-84d8-ebf5597796d1</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.CityChannel</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].description</description>
+            <innerID>d3c2d2d4-3f41-4fbd-8f2a-01211e679638</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.CityChannel</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].description</description>
+            <innerID>214bc28c-9214-4436-a3d5-731b6c72b040</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.CityChannel</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].description</description>
+            <innerID>b6422d96-5b0f-4d2c-9355-757b049967ae</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.CityChannel</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.mw.pay.CityChannel</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="DataBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+        <key name="name" value="CT_PAY_CityChannel" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>city</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFCityID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="R_CityChannel_AdminOrgUnit_city" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>channelType</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.ChannelTypeEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFChannelType" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>channel</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>250</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFChannel" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>discount</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFDiscount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>includezx</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFIncludezx" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>includedoc</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFIncludedoc" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>businessDate</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFBusinessDate" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="渠道折扣配置" />
+            <lang locale="zh_HK" value="渠道折扣配置" />
+            <lang locale="zh_TW" value="渠道折扣配置" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewextendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewextendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewextendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.app.CityChannelQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.app.CityChannelQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.app.CityChannelQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewextendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.CityChannelEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.CityChannelEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.CityChannelEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewextendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewextendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewextendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewextendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].defaultViewextendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.CityChannelListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.CityChannelListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.CityChannelListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="單級基礎資料範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.app.CityChannelQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.app.CityChannelQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.app.CityChannelQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.CityChannelEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.CityChannelEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.CityChannelEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.CityChannelListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.CityChannelListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.CityChannelListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.linkProperty[city].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务期间" />
+            <lang locale="zh_HK" value="業務期間" />
+            <lang locale="zh_TW" value="業務期間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务期间" />
+            <lang locale="zh_HK" value="業務期間" />
+            <lang locale="zh_TW" value="業務期間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[businessDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="渠道类型" />
+            <lang locale="zh_HK" value="渠道類型" />
+            <lang locale="zh_TW" value="渠道類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="FirSource" />
+            <lang locale="zh_HK" value="FirSource" />
+            <lang locale="zh_TW" value="FirSource" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="渠道类型" />
+            <lang locale="zh_HK" value="渠道類型" />
+            <lang locale="zh_TW" value="渠道類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.defaultValue">
+            <lang locale="en_US" value="FirSource" />
+            <lang locale="zh_CN" value="FirSource" />
+            <lang locale="zh_TW" value="FirSource" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channelType].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="渠道" />
+            <lang locale="zh_HK" value="渠道" />
+            <lang locale="zh_TW" value="渠道" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="渠道" />
+            <lang locale="zh_HK" value="渠道" />
+            <lang locale="zh_TW" value="渠道" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[channel].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="折扣" />
+            <lang locale="zh_HK" value="折扣" />
+            <lang locale="zh_TW" value="折扣" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="折扣" />
+            <lang locale="zh_HK" value="折扣" />
+            <lang locale="zh_TW" value="折扣" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[discount].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否包括医生" />
+            <lang locale="zh_HK" value="是否包括醫生" />
+            <lang locale="zh_TW" value="是否包括醫生" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否包括医生" />
+            <lang locale="zh_HK" value="是否包括醫生" />
+            <lang locale="zh_TW" value="是否包括醫生" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否包括医生" />
+            <lang locale="zh_HK" value="是否包括醫生" />
+            <lang locale="zh_TW" value="是否包括醫生" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].extendedProperty.bizDataType">
+            <lang locale="en_US" value="BOOLEAN" />
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includedoc].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否包括咨询师" />
+            <lang locale="zh_HK" value="是否包括諮詢師" />
+            <lang locale="zh_TW" value="是否包括諮詢師" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否包括咨询师" />
+            <lang locale="zh_HK" value="是否包括諮詢師" />
+            <lang locale="zh_TW" value="是否包括諮詢師" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否包括咨询师" />
+            <lang locale="zh_HK" value="是否包括諮詢師" />
+            <lang locale="zh_TW" value="是否包括諮詢師" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].extendedProperty.bizDataType">
+            <lang locale="en_US" value="BOOLEAN" />
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.CityChannel].properties.ownProperty[includezx].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

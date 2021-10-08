@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.srqr.app</package>
+    <name>FreeItemCheckEntryQuery</name>
+    <alias>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK />
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>FreeItemCheck</name>
+            <alias>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].subObjects.subEntity[FreeItemCheck].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheck" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>Entry</name>
+            <alias>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].subObjects.subEntity[Entry].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntry" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>Entry_firstItem</name>
+            <alias>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].subObjects.subEntity[Entry_firstItem].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="Paytypecategory" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>Entry_secondItem</name>
+            <alias>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].subObjects.subEntity[Entry_secondItem].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="Paytypeitem" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>Entry_item</name>
+            <alias>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].subObjects.subEntity[Entry_item].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="PayItem" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>05165992-ec8c-4a01-8b7a-d08a1b386cb3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[05165992-ec8c-4a01-8b7a-d08a1b386cb3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>8767d679-230d-4b7e-bb6e-786cdd871cd3</key>
+                    <parentUnit>
+                        <key name="name" value="05165992-ec8c-4a01-8b7a-d08a1b386cb3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FreeItemCheck" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>60cd580d-0b33-477b-b97c-ff324fa0f7d0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[60cd580d-0b33-477b-b97c-ff324fa0f7d0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>52d24879-80b0-433c-938c-2b840d3f2d18</key>
+                    <parentUnit>
+                        <key name="name" value="60cd580d-0b33-477b-b97c-ff324fa0f7d0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="parent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Entry.seq</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.seq].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>08fbecd6-a252-4a5c-9976-8e05a939ad55</key>
+                    <parentUnit>
+                        <key name="name" value="Entry.seq" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="seq" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Entry.id</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>99c36c34-d595-4891-be08-24a9a0369c0f</key>
+                    <parentUnit>
+                        <key name="name" value="Entry.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0423abbf-8eba-4558-912c-5e4c5ad086f6</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FreeItemCheck" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Entry.firstItem.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.firstItem.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0d85542a-2476-4f00-aac6-d2f228c02a7a</key>
+                    <parentUnit>
+                        <key name="name" value="Entry.firstItem.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry_firstItem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>2ca2cd82-099c-4c0e-b44e-80b0c311a430</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[2ca2cd82-099c-4c0e-b44e-80b0c311a430].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>ca10c2e4-50f8-41f1-8202-d20381683c6c</key>
+                    <parentUnit>
+                        <key name="name" value="2ca2cd82-099c-4c0e-b44e-80b0c311a430" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="firstItem" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3f7f4f4d-6898-4391-8d49-78195c6a035c</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[3f7f4f4d-6898-4391-8d49-78195c6a035c].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>ca032790-668c-41b0-a93c-109ffd9300e8</key>
+                    <parentUnit>
+                        <key name="name" value="3f7f4f4d-6898-4391-8d49-78195c6a035c" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry_firstItem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Entry.secondItem.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.secondItem.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a98c0dcf-ac40-475e-abd4-13c8d5a858e1</key>
+                    <parentUnit>
+                        <key name="name" value="Entry.secondItem.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry_secondItem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>87f5090b-0927-4a64-bef7-0fa8bc529d1e</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[87f5090b-0927-4a64-bef7-0fa8bc529d1e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>8a19c4a4-f137-4fe7-85ff-3e76324ef8f2</key>
+                    <parentUnit>
+                        <key name="name" value="87f5090b-0927-4a64-bef7-0fa8bc529d1e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="secondItem" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>38b7fc36-5fff-40c9-a0f8-72a94e7512cc</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[38b7fc36-5fff-40c9-a0f8-72a94e7512cc].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>13c3797b-dad6-42ff-95ba-f5f78e3141db</key>
+                    <parentUnit>
+                        <key name="name" value="38b7fc36-5fff-40c9-a0f8-72a94e7512cc" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry_secondItem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Entry.item.Status</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.item.Status].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Enum</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e495b429-827a-43e6-b8b7-a36b0d2a16d0</key>
+                    <parentUnit>
+                        <key name="name" value="Entry.item.Status" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry_item" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Status" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>29b62827-f553-47ce-a951-7e8db2d9a5e9</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[29b62827-f553-47ce-a951-7e8db2d9a5e9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>49e3dd4d-e64c-4619-9b52-392bd73b4d3c</key>
+                    <parentUnit>
+                        <key name="name" value="29b62827-f553-47ce-a951-7e8db2d9a5e9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="item" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>45ce6846-5edf-4896-8327-fec28770a968</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[45ce6846-5edf-4896-8327-fec28770a968].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>70e9f1cd-0133-4ced-90aa-49b5e5c5fc36</key>
+                    <parentUnit>
+                        <key name="name" value="45ce6846-5edf-4896-8327-fec28770a968" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Entry_item" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </propertyUnit>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+            <key name="name" value="FreeItemCheckEntryQuery" />
+        </query>
+    </defaultFilter>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>396fa8ab-693e-48d7-8f4d-8a5133c77a63</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="FreeItemCheck" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="Entry" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>bb9c8527-c033-407e-af1c-d6756a4123de</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="05165992-ec8c-4a01-8b7a-d08a1b386cb3" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="60cd580d-0b33-477b-b97c-ff324fa0f7d0" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="396fa8ab-693e-48d7-8f4d-8a5133c77a63" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>ab80efdf-47d8-41e4-a268-2402552db731</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Entry" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="Entry_firstItem" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>10b9f51e-ea29-4ea5-b27d-3251fe95feb9</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="2ca2cd82-099c-4c0e-b44e-80b0c311a430" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="3f7f4f4d-6898-4391-8d49-78195c6a035c" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="ab80efdf-47d8-41e4-a268-2402552db731" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>d5a689f5-44cd-403c-9083-5c66e60e17f4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Entry" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="Entry_secondItem" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>4eaa3005-e82f-4b89-bbac-f36efc16bcc8</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="87f5090b-0927-4a64-bef7-0fa8bc529d1e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="38b7fc36-5fff-40c9-a0f8-72a94e7512cc" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="d5a689f5-44cd-403c-9083-5c66e60e17f4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>6957990e-f106-4f1e-8039-f308168ed18a</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Entry" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="Entry_item" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>cb99f5dc-94dd-4c18-9c4f-7e6a4fc032af</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="29b62827-f553-47ce-a951-7e8db2d9a5e9" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="45ce6846-5edf-4896-8327-fec28770a968" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="6957990e-f106-4f1e-8039-f308168ed18a" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="FreeItemCheckEntryQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].subObjects.subEntity[Entry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].subObjects.subEntity[Entry_firstItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].subObjects.subEntity[Entry_item].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].subObjects.subEntity[Entry_secondItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].subObjects.subEntity[FreeItemCheck].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[05165992-ec8c-4a01-8b7a-d08a1b386cb3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[29b62827-f553-47ce-a951-7e8db2d9a5e9].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[2ca2cd82-099c-4c0e-b44e-80b0c311a430].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[38b7fc36-5fff-40c9-a0f8-72a94e7512cc].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[3f7f4f4d-6898-4391-8d49-78195c6a035c].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[45ce6846-5edf-4896-8327-fec28770a968].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[60cd580d-0b33-477b-b97c-ff324fa0f7d0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.propertyUnit[87f5090b-0927-4a64-bef7-0fa8bc529d1e].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.firstItem.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="一级分录" />
+            <lang locale="zh_HK" value="一級分錄" />
+            <lang locale="zh_TW" value="一級分錄" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.firstItem.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.firstItem.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.firstItem.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.item.Status].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目" />
+            <lang locale="zh_HK" value="收費項目" />
+            <lang locale="zh_TW" value="收費項目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.item.Status].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.item.Status].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.item.Status].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.secondItem.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="二级分类" />
+            <lang locale="zh_HK" value="二級分類" />
+            <lang locale="zh_TW" value="二級分類" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.secondItem.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.secondItem.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.secondItem.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.seq].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.seq].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[Entry.seq].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.srqr.app.FreeItemCheckEntryQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</joinQuery>
+

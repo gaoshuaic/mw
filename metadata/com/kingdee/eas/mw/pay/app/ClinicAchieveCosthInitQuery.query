@@ -1,0 +1,2914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.app</package>
+    <name>ClinicAchieveCosthInitQuery</name>
+    <alias>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.mw.pay.ClinicAchieveCosthInit</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>ClinicAchieveCosthInit</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].subObjects.subEntity[ClinicAchieveCosthInit].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>simpleName</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[simpleName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="simpleName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="simpleName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>businessDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[businessDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>296a867d-a210-49f3-9669-cc23d636b2d5</key>
+                    <parentUnit>
+                        <key name="name" value="businessDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="businessDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>empNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[empNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d83c73bb-9dd7-4db0-9974-9f38bdd08cb8</key>
+                    <parentUnit>
+                        <key name="name" value="empNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="empNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>empName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[empName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>640b7d97-eb67-41e0-a38d-fe19cd6ad348</key>
+                    <parentUnit>
+                        <key name="name" value="empName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="empName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>clinicNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[clinicNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6e0a3f27-0cb4-435c-9c01-c60e1418d4e6</key>
+                    <parentUnit>
+                        <key name="name" value="clinicNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="clinicNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>cityNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[cityNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6246ef57-d06e-43a6-b286-6c5784299856</key>
+                    <parentUnit>
+                        <key name="name" value="cityNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cityNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>cityName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[cityName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>baad91a4-0d59-4d73-b77e-a3fdd0bb1186</key>
+                    <parentUnit>
+                        <key name="name" value="cityName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cityName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>clinicName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[clinicName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5cc75d19-ff63-4f16-bdda-f1efb70ff40e</key>
+                    <parentUnit>
+                        <key name="name" value="clinicName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="clinicName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>jyCount</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[jyCount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e8ae082d-c1fd-4ff6-ad7b-7e36dbcf4704</key>
+                    <parentUnit>
+                        <key name="name" value="jyCount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="jyCount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>plaCount</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[plaCount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5d14d1d8-4232-4502-afd5-5fcafaf34a3e</key>
+                    <parentUnit>
+                        <key name="name" value="plaCount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="plaCount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>whiteAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[whiteAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>efef1486-655e-497b-a3a6-4d8db548bafb</key>
+                    <parentUnit>
+                        <key name="name" value="whiteAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="whiteAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>zxAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zxAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>760bc42a-a4ca-4dcd-9094-515078e1e8ba</key>
+                    <parentUnit>
+                        <key name="name" value="zxAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="zxAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>zzAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>56342e62-39ec-456d-8f2e-312c95b147d6</key>
+                    <parentUnit>
+                        <key name="name" value="zzAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="zzAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>zzCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1240fdb7-f0a0-4ab6-a460-e35b334e2fb0</key>
+                    <parentUnit>
+                        <key name="name" value="zzCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="zzCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>gdjzAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8bc49a62-0147-4013-bec9-63eafc7c92ba</key>
+                    <parentUnit>
+                        <key name="name" value="gdjzAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="gdjzAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>gdjzCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e7c29147-46ff-4cb5-b120-4504e8b5bb9a</key>
+                    <parentUnit>
+                        <key name="name" value="gdjzCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="gdjzCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>yxjzAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e1d6b1c8-f844-4519-ae18-03e68949bedf</key>
+                    <parentUnit>
+                        <key name="name" value="yxjzAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="yxjzAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>yxjzCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>12e2498b-f831-4878-a61c-41f6fde65f12</key>
+                    <parentUnit>
+                        <key name="name" value="yxjzCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="yxjzCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>zyAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zyAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>80df705f-f3c0-400b-8096-d6f6b02f173c</key>
+                    <parentUnit>
+                        <key name="name" value="zyAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="zyAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>yzCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yzCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e0d22fc3-8538-4be6-a187-be5a2ddf5add</key>
+                    <parentUnit>
+                        <key name="name" value="yzCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="yzCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>knwAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0a25a711-8ebe-4be6-90a6-593c27bdad2e</key>
+                    <parentUnit>
+                        <key name="name" value="knwAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="knwAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>knwCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>557c0f4d-084b-41aa-9661-f7a29f85823b</key>
+                    <parentUnit>
+                        <key name="name" value="knwCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="knwCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>mbAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4e1afed2-e462-4553-a2bb-03e4315e20e1</key>
+                    <parentUnit>
+                        <key name="name" value="mbAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="mbAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>mbCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c878bf97-cf6a-42b5-aa83-09327aa91931</key>
+                    <parentUnit>
+                        <key name="name" value="mbCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="mbCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xfAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>039b15c5-a99e-48af-b88c-f82006df400d</key>
+                    <parentUnit>
+                        <key name="name" value="xfAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xfAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xfCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>01d16c78-cbe2-496e-a06c-8903656f554e</key>
+                    <parentUnit>
+                        <key name="name" value="xfCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xfCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>eyAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4ae30dfd-c4c0-424f-b608-554ccfa18b13</key>
+                    <parentUnit>
+                        <key name="name" value="eyAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="eyAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>eyCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3d67dd2d-d33b-4c2a-9cb3-8712f7dd1caf</key>
+                    <parentUnit>
+                        <key name="name" value="eyCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="eyCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>sumAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[sumAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f1dbaa44-c623-48cc-a966-bc98cee7cba7</key>
+                    <parentUnit>
+                        <key name="name" value="sumAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="sumAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>zzMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>77f9a069-103a-4ea8-a278-7d5280933996</key>
+                    <parentUnit>
+                        <key name="name" value="zzMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="zzMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>gdjzMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>70bd13f2-f3a0-4aed-976d-041d4390c8ed</key>
+                    <parentUnit>
+                        <key name="name" value="gdjzMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="gdjzMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>yxjzMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>356bd08b-554b-4f05-9863-e479fab15ac8</key>
+                    <parentUnit>
+                        <key name="name" value="yxjzMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="yxjzMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>knwMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1d54f4ce-ff62-413d-b314-e45270e87cab</key>
+                    <parentUnit>
+                        <key name="name" value="knwMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="knwMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>yzMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yzMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>871a3521-a46d-4d3c-99ca-13cb323052ac</key>
+                    <parentUnit>
+                        <key name="name" value="yzMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="yzMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>mbMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d3eb0d81-bf0c-4233-b5f1-e9810210794e</key>
+                    <parentUnit>
+                        <key name="name" value="mbMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="mbMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xfMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2bc0ac9e-117d-424c-aa2d-e64a7a8db7fa</key>
+                    <parentUnit>
+                        <key name="name" value="xfMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xfMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>eyMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edfcd451-58ae-4327-8434-89a82854dee3</key>
+                    <parentUnit>
+                        <key name="name" value="eyMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="eyMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>otherMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[otherMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a54ec8aa-6932-47e7-860e-c30b20248fd6</key>
+                    <parentUnit>
+                        <key name="name" value="otherMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="otherMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>postType</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[postType].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>83ccaa8c-c776-4a97-82ee-b50f47655869</key>
+                    <parentUnit>
+                        <key name="name" value="postType" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="postType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>iszidai</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[iszidai].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>fa25a6ca-2b6d-4f0b-898f-7cb7d3bb3d29</key>
+                    <parentUnit>
+                        <key name="name" value="iszidai" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ClinicAchieveCosthInit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="iszidai" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.mw.pay.app" />
+            <key name="name" value="ClinicAchieveCosthInitQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="ClinicAchieveCosthInit" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="ClinicAchieveCosthInit" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="ClinicAchieveCosthInitQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊业绩成本初始数据" />
+            <lang locale="zh_HK" value="門診業績成本初始數據" />
+            <lang locale="zh_TW" value="門診業績成本初始數據" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].defaultSorters.querySorterItemextendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].defaultSorters.querySorterItemextendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].defaultSorters.querySorterItemextendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].defaultSorters.querySorterItemextendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].defaultSorters.querySorterItemextendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单级基础资料查询" />
+            <lang locale="zh_HK" value="單級基礎資料查詢" />
+            <lang locale="zh_TW" value="單級基礎資料查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.PayResource.ClinicAchieveCosthInitQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.PayResource.ClinicAchieveCosthInitQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.PayResource.ClinicAchieveCosthInitQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="门诊业绩成本初始数据" />
+            <lang locale="zh_CN" value="门诊业绩成本初始数据" />
+            <lang locale="zh_TW" value="门诊业绩成本初始数据" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].subObjects.subEntity[ClinicAchieveCosthInit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[businessDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务期间" />
+            <lang locale="zh_HK" value="業務期間" />
+            <lang locale="zh_TW" value="業務期間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[businessDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[businessDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[cityName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市编码" />
+            <lang locale="zh_HK" value="城市編碼" />
+            <lang locale="zh_TW" value="城市編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[cityName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[cityName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[cityNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市编码" />
+            <lang locale="zh_HK" value="城市編碼" />
+            <lang locale="zh_TW" value="城市編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[cityNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[cityNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[clinicName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊名称" />
+            <lang locale="zh_HK" value="門診名稱" />
+            <lang locale="zh_TW" value="門診名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[clinicName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[clinicName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[clinicNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊编码" />
+            <lang locale="zh_HK" value="門診編碼" />
+            <lang locale="zh_TW" value="門診編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[clinicNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[clinicNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[createTime].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[createTime].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[createTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.number].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.number].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[creator.number].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[description].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[description].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[description].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[description].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[empName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工名称" />
+            <lang locale="zh_HK" value="員工名稱" />
+            <lang locale="zh_TW" value="員工名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[empName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[empName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[empNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工编码" />
+            <lang locale="zh_HK" value="員工編碼" />
+            <lang locale="zh_TW" value="員工編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[empNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[empNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="儿牙业绩" />
+            <lang locale="zh_HK" value="兒牙業績" />
+            <lang locale="zh_TW" value="兒牙業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="儿牙成本" />
+            <lang locale="zh_HK" value="兒牙成本" />
+            <lang locale="zh_TW" value="兒牙成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="儿牙奖金" />
+            <lang locale="zh_HK" value="兒牙獎金" />
+            <lang locale="zh_TW" value="兒牙獎金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[eyMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定矫正业绩" />
+            <lang locale="zh_HK" value="固定矯正業績" />
+            <lang locale="zh_TW" value="固定矯正業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定矫正成本" />
+            <lang locale="zh_HK" value="固定矯正成本" />
+            <lang locale="zh_TW" value="固定矯正成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定矫正奖金" />
+            <lang locale="zh_HK" value="固定矯正獎金" />
+            <lang locale="zh_TW" value="固定矯正獎金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[gdjzMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[id].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[id].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[id].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[id].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[id].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[iszidai].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否自带" />
+            <lang locale="zh_HK" value="是否自帶" />
+            <lang locale="zh_TW" value="是否自帶" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[iszidai].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[iszidai].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[jyCount].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="洁牙次数" />
+            <lang locale="zh_HK" value="潔牙次數" />
+            <lang locale="zh_TW" value="潔牙次數" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[jyCount].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[jyCount].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="口内外业绩" />
+            <lang locale="zh_HK" value="口內外業績" />
+            <lang locale="zh_TW" value="口內外業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="口内外成本" />
+            <lang locale="zh_HK" value="口內外成本" />
+            <lang locale="zh_TW" value="口內外成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="口内外奖金" />
+            <lang locale="zh_HK" value="口內外獎金" />
+            <lang locale="zh_TW" value="口內外獎金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[knwMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateTime].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateTime].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.number].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.number].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[lastUpdateUser.number].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白业绩" />
+            <lang locale="zh_HK" value="美白業績" />
+            <lang locale="zh_TW" value="美白業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白成本" />
+            <lang locale="zh_HK" value="美白成本" />
+            <lang locale="zh_TW" value="美白成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白奖金" />
+            <lang locale="zh_HK" value="美白獎金" />
+            <lang locale="zh_TW" value="美白獎金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[mbMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[number].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[number].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[number].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[otherMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其他奖金" />
+            <lang locale="zh_HK" value="其他獎金" />
+            <lang locale="zh_TW" value="其他獎金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[otherMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[otherMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[plaCount].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="派力奥次数" />
+            <lang locale="zh_HK" value="派力奧次數" />
+            <lang locale="zh_TW" value="派力奧次數" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[plaCount].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[plaCount].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[postType].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="岗位" />
+            <lang locale="zh_HK" value="崗位" />
+            <lang locale="zh_TW" value="崗位" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[postType].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[postType].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[simpleName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[simpleName].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[simpleName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[simpleName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[simpleName].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[simpleName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[sumAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业绩总和" />
+            <lang locale="zh_HK" value="業績總和" />
+            <lang locale="zh_TW" value="業績總和" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[sumAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[sumAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[whiteAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白业绩(洁牙师)" />
+            <lang locale="zh_HK" value="美白業績(潔牙師)" />
+            <lang locale="zh_TW" value="美白業績(潔牙師)" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[whiteAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[whiteAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修复业绩" />
+            <lang locale="zh_HK" value="修復業績" />
+            <lang locale="zh_TW" value="修復業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修复成本" />
+            <lang locale="zh_HK" value="修復成本" />
+            <lang locale="zh_TW" value="修復成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修复奖金" />
+            <lang locale="zh_HK" value="修復獎金" />
+            <lang locale="zh_TW" value="修復獎金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[xfMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="隐形矫正业绩" />
+            <lang locale="zh_HK" value="隱形矯正業績" />
+            <lang locale="zh_TW" value="隱形矯正業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="隐形矫正成本" />
+            <lang locale="zh_HK" value="隱形矯正成本" />
+            <lang locale="zh_TW" value="隱形矯正成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="隐形矫正奖金" />
+            <lang locale="zh_HK" value="隱形矯正獎金" />
+            <lang locale="zh_TW" value="隱形矯正獎金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yxjzMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yzCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="牙周成本" />
+            <lang locale="zh_HK" value="牙周成本" />
+            <lang locale="zh_TW" value="牙周成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yzCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yzCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yzMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="牙周奖金" />
+            <lang locale="zh_HK" value="牙周獎金" />
+            <lang locale="zh_TW" value="牙周獎金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yzMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[yzMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zxAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="咨询业绩" />
+            <lang locale="zh_HK" value="諮詢業績" />
+            <lang locale="zh_TW" value="諮詢業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zxAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zxAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zyAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="牙周业绩" />
+            <lang locale="zh_HK" value="牙周業績" />
+            <lang locale="zh_TW" value="牙周業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zyAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zyAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="种植业绩" />
+            <lang locale="zh_HK" value="種植業績" />
+            <lang locale="zh_TW" value="種植業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="种植成本" />
+            <lang locale="zh_HK" value="種植成本" />
+            <lang locale="zh_TW" value="種植成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="种植奖金" />
+            <lang locale="zh_HK" value="種植獎金" />
+            <lang locale="zh_TW" value="種植獎金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.ClinicAchieveCosthInitQuery].units.queryField[zzMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

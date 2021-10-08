@@ -1,0 +1,3279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.app</package>
+    <name>DoctorPerformance</name>
+    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].alias</alias>
+    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].description</description>
+    <userDefined>true</userDefined>
+    <bosType>9286549F</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.mw.pay.DoctorPerformance</businessImplName>
+    <businessControllerName>com.kingdee.eas.mw.pay.app.DoctorPerformanceController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].description</description>
+            <innerID>aa16de6f-4d33-4e42-bcfb-a7d3784e3e84</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].description</description>
+            <innerID>5d65a5a9-1b7a-411e-9df8-b0a68451b3d3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].description</description>
+            <innerID>7630768d-ee1e-4123-bc27-627f590ab918</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].description</description>
+            <innerID>a10d58e7-295f-4fcc-9234-afe3fd544088</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].description</description>
+            <innerID>64c48b43-ac05-4a4b-ae65-41a963e95c83</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].description</description>
+            <innerID>3b01067e-2bbf-41f8-99d1-9890240522bb</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.mw.pay.DoctorPerformance</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+        <key name="name" value="CT_PAY_DoctorPerformance" />
+    </table>
+    <properties>
+        <ownProperty>
+            <name>mzNumber</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFMzNumber" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>mzName</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFMzName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>empNumber</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFEmpNumber" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>empName</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFEmpName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>zzProportion</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFZzProportion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>performanceBase</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFPerformanceBase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>zzBase</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFZzBase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>gdProportion</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFGdProportion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>gdBase</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFGdBase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>yxProportion</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFYxProportion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>yxBase</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFYxBase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>xfProportion</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFXfProportion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>xfBase</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFXfBase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>eyProportion</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFEyProportion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>eyBase</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFEyBase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>knProportion</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFKnProportion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>knBase</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFKnBase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>mbProportion</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFMbProportion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>mbBase</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFMbBase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>zbProportion</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFZbProportion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>zbBase</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFZbBase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>qtProportion</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFQtProportion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>qtBase</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFQtBase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>importDate</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFImportDate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>businessDate</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFBusinessDate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>cityName</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCityName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>cityNumber</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCityNumber" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>city</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFCityID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="R_DoctorPerformance_CtrlUnit_city" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>zjBiLi</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFZjBiLi" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>docKeepType</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.DocKeepType</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFDocKeepType" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <events>
+        <event>
+            <name>submitEvent</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>dfd2c083-00fa-1000-e000-001fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="submit" />
+                        <key name="innerID" value="dfd2c083-00fa-1000-e000-001fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>deleteEvent</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>be5779dd-00fe-1000-e000-0007c0a813a9</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="delete" />
+                        <key name="innerID" value="be5779dd-00fe-1000-e000-0007c0a813a9" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>passAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000ec0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="passAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000ec0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>unpassAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="unpassAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.DoctorPerformance</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+    </events>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].defaultViewdescription</description>
+        <filter>
+            <maskString />
+        </filter>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="医生业绩及固定比例" />
+            <lang locale="zh_HK" value="醫生業績及固定比例" />
+            <lang locale="zh_TW" value="醫生業績及固定比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].defaultView.filterextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.app.DoctorPerformanceQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.app.DoctorPerformanceQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.app.DoctorPerformanceQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.DoctorPerformanceEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.DoctorPerformanceEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.DoctorPerformanceEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.DoctorPerformanceListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.DoctorPerformanceListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.DoctorPerformanceListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.linkProperty[city].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期(年月)" />
+            <lang locale="zh_HK" value="業務日期(年月)" />
+            <lang locale="zh_TW" value="業務日期(年月)" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期(年月)" />
+            <lang locale="zh_HK" value="業務日期(年月)" />
+            <lang locale="zh_TW" value="業務日期(年月)" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[businessDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市名称" />
+            <lang locale="zh_HK" value="城市名稱" />
+            <lang locale="zh_TW" value="城市名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市名称" />
+            <lang locale="zh_HK" value="城市名稱" />
+            <lang locale="zh_TW" value="城市名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市编码" />
+            <lang locale="zh_HK" value="城市編碼" />
+            <lang locale="zh_TW" value="城市編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市编码" />
+            <lang locale="zh_HK" value="城市編碼" />
+            <lang locale="zh_TW" value="城市編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[cityNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="医生预留类型" />
+            <lang locale="zh_HK" value="醫生預留類型" />
+            <lang locale="zh_TW" value="醫生預留類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="wu" />
+            <lang locale="zh_HK" value="wu" />
+            <lang locale="zh_TW" value="wu" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="医生预留类型" />
+            <lang locale="zh_HK" value="醫生預留類型" />
+            <lang locale="zh_TW" value="醫生預留類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].extendedProperty.defaultValue">
+            <lang locale="en_US" value="wu" />
+            <lang locale="zh_CN" value="wu" />
+            <lang locale="zh_TW" value="wu" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[docKeepType].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工姓名" />
+            <lang locale="zh_HK" value="員工姓名" />
+            <lang locale="zh_TW" value="員工姓名" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工姓名" />
+            <lang locale="zh_HK" value="員工姓名" />
+            <lang locale="zh_TW" value="員工姓名" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工编码" />
+            <lang locale="zh_HK" value="員工編碼" />
+            <lang locale="zh_TW" value="員工編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工编码" />
+            <lang locale="zh_HK" value="員工編碼" />
+            <lang locale="zh_TW" value="員工編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[empNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="儿牙矫正业绩" />
+            <lang locale="zh_HK" value="兒牙矯正業績" />
+            <lang locale="zh_TW" value="兒牙矯正業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="儿牙矫正业绩" />
+            <lang locale="zh_HK" value="兒牙矯正業績" />
+            <lang locale="zh_TW" value="兒牙矯正業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyBase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="儿牙矫正比例" />
+            <lang locale="zh_HK" value="兒牙矯正比例" />
+            <lang locale="zh_TW" value="兒牙矯正比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="儿牙矫正比例" />
+            <lang locale="zh_HK" value="兒牙矯正比例" />
+            <lang locale="zh_TW" value="兒牙矯正比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[eyProportion].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定矫正业绩" />
+            <lang locale="zh_HK" value="固定矯正業績" />
+            <lang locale="zh_TW" value="固定矯正業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定矫正业绩" />
+            <lang locale="zh_HK" value="固定矯正業績" />
+            <lang locale="zh_TW" value="固定矯正業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdBase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定矫正比例" />
+            <lang locale="zh_HK" value="固定矯正比例" />
+            <lang locale="zh_TW" value="固定矯正比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定矫正比例" />
+            <lang locale="zh_HK" value="固定矯正比例" />
+            <lang locale="zh_TW" value="固定矯正比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[gdProportion].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="导入日期" />
+            <lang locale="zh_HK" value="導入日期" />
+            <lang locale="zh_TW" value="導入日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="导入日期" />
+            <lang locale="zh_HK" value="導入日期" />
+            <lang locale="zh_TW" value="導入日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[importDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="口内外业绩" />
+            <lang locale="zh_HK" value="口內外業績" />
+            <lang locale="zh_TW" value="口內外業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="口内外矫正业绩" />
+            <lang locale="zh_HK" value="口內外矯正業績" />
+            <lang locale="zh_TW" value="口內外矯正業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knBase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="口内外比例" />
+            <lang locale="zh_HK" value="口內外比例" />
+            <lang locale="zh_TW" value="口內外比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="口内外矫正比例" />
+            <lang locale="zh_HK" value="口內外矯正比例" />
+            <lang locale="zh_TW" value="口內外矯正比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[knProportion].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白业绩" />
+            <lang locale="zh_HK" value="美白業績" />
+            <lang locale="zh_TW" value="美白業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白业绩" />
+            <lang locale="zh_HK" value="美白業績" />
+            <lang locale="zh_TW" value="美白業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbBase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白比例" />
+            <lang locale="zh_HK" value="美白比例" />
+            <lang locale="zh_TW" value="美白比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白比例" />
+            <lang locale="zh_HK" value="美白比例" />
+            <lang locale="zh_TW" value="美白比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mbProportion].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊姓名" />
+            <lang locale="zh_HK" value="門診姓名" />
+            <lang locale="zh_TW" value="門診姓名" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊姓名" />
+            <lang locale="zh_HK" value="門診姓名" />
+            <lang locale="zh_TW" value="門診姓名" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊编码" />
+            <lang locale="zh_HK" value="門診編碼" />
+            <lang locale="zh_TW" value="門診編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊编码" />
+            <lang locale="zh_HK" value="門診編碼" />
+            <lang locale="zh_TW" value="門診編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[mzNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业绩基数" />
+            <lang locale="zh_HK" value="業績基數" />
+            <lang locale="zh_TW" value="業績基數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业绩基数" />
+            <lang locale="zh_HK" value="業績基數" />
+            <lang locale="zh_TW" value="業績基數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[performanceBase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其它业绩" />
+            <lang locale="zh_HK" value="其他業績" />
+            <lang locale="zh_TW" value="其他業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其它业绩" />
+            <lang locale="zh_HK" value="其他業績" />
+            <lang locale="zh_TW" value="其他業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtBase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其它比例" />
+            <lang locale="zh_HK" value="其他比例" />
+            <lang locale="zh_TW" value="其他比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其它比例" />
+            <lang locale="zh_HK" value="其他比例" />
+            <lang locale="zh_TW" value="其他比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[qtProportion].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修复矫正业绩" />
+            <lang locale="zh_HK" value="修復矯正業績" />
+            <lang locale="zh_TW" value="修復矯正業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修复矫正业绩" />
+            <lang locale="zh_HK" value="修復矯正業績" />
+            <lang locale="zh_TW" value="修復矯正業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfBase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修复矫正比例" />
+            <lang locale="zh_HK" value="修復矯正比例" />
+            <lang locale="zh_TW" value="修復矯正比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修复矫正比例" />
+            <lang locale="zh_HK" value="修復矯正比例" />
+            <lang locale="zh_TW" value="修復矯正比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[xfProportion].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="隐形矫正业绩" />
+            <lang locale="zh_HK" value="隱形矯正業績" />
+            <lang locale="zh_TW" value="隱形矯正業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="隐形矫正业绩" />
+            <lang locale="zh_HK" value="隱形矯正業績" />
+            <lang locale="zh_TW" value="隱形矯正業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxBase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="隐形矫正比例" />
+            <lang locale="zh_HK" value="隱形矯正比例" />
+            <lang locale="zh_TW" value="隱形矯正比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="隐形矫正比例" />
+            <lang locale="zh_HK" value="隱形矯正比例" />
+            <lang locale="zh_TW" value="隱形矯正比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[yxProportion].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="周边业绩" />
+            <lang locale="zh_HK" value="周邊業績" />
+            <lang locale="zh_TW" value="周邊業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="周边业绩" />
+            <lang locale="zh_HK" value="周邊業績" />
+            <lang locale="zh_TW" value="周邊業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbBase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="周边比例" />
+            <lang locale="zh_HK" value="周邊比例" />
+            <lang locale="zh_TW" value="周邊比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="周边比例" />
+            <lang locale="zh_HK" value="周邊比例" />
+            <lang locale="zh_TW" value="周邊比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zbProportion].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="正畸比例" />
+            <lang locale="zh_HK" value="正畸比例" />
+            <lang locale="zh_TW" value="正畸比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="正畸比例" />
+            <lang locale="zh_HK" value="正畸比例" />
+            <lang locale="zh_TW" value="正畸比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zjBiLi].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="种植业绩" />
+            <lang locale="zh_HK" value="種植業績" />
+            <lang locale="zh_TW" value="種植業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="种植业绩" />
+            <lang locale="zh_HK" value="種植業績" />
+            <lang locale="zh_TW" value="種植業績" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzBase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="种植比例" />
+            <lang locale="zh_HK" value="種植比例" />
+            <lang locale="zh_TW" value="種植比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="种植比例" />
+            <lang locale="zh_HK" value="種植比例" />
+            <lang locale="zh_TW" value="種植比例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.DoctorPerformance].properties.ownProperty[zzProportion].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

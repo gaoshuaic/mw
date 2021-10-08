@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.srqr</package>
+    <name>PayItem</name>
+    <alias>bizUnit[com.kingdee.eas.mw.srqr.PayItem].alias</alias>
+    <description>bizUnit[com.kingdee.eas.mw.srqr.PayItem].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.mw.srqr.app.PayItem</entityPK>
+    <queryPK>com.kingdee.eas.mw.srqr.app.PayItemQuery</queryPK>
+    <editUIPK>com.kingdee.eas.mw.srqr.client.PayItemEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.mw.srqr.client.PayItemListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>DataBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目" />
+            <lang locale="zh_HK" value="收費項目" />
+            <lang locale="zh_TW" value="收費項目" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.configured">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.app.PayItemQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.app.PayItemQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.app.PayItemQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.client.PayItemEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.client.PayItemEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.client.PayItemEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.isUseCodeRule">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.client.PayItemListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.client.PayItemListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.client.PayItemListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="4" />
+            <lang locale="zh_CN" value="4" />
+            <lang locale="zh_TW" value="4" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.useTableEditUI">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.mw.srqr.PayItem].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

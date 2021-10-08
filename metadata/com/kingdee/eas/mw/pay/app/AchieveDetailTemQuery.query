@@ -1,0 +1,3613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.app</package>
+    <name>AchieveDetailTemQuery</name>
+    <alias>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.mw.pay.AchieveDetailTem</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>AchieveDetailTem</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].subObjects.subEntity[AchieveDetailTem].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTem" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>handler</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].subObjects.subEntity[handler].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[auditor.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[creator.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[lastUpdateUser.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[handler.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[handler.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit9</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="handler" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit8</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Fivouchered</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Fivouchered].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="Fivouchered" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Fivouchered" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>City</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[City].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8c0a87ff-13ce-4811-b0a7-213fb4a6555c</key>
+                    <parentUnit>
+                        <key name="name" value="City" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="City" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>CaseNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[CaseNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>fc921c12-ffe4-4617-a5e9-12ab4f01817f</key>
+                    <parentUnit>
+                        <key name="name" value="CaseNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="CaseNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ClinicNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ClinicNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2d36e88e-2229-4425-9349-5f2a786c08d5</key>
+                    <parentUnit>
+                        <key name="name" value="ClinicNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ClinicNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ClinicName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ClinicName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6b4fad65-9ad5-4e32-9486-685a831464f4</key>
+                    <parentUnit>
+                        <key name="name" value="ClinicName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ClinicName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>44f7ea30-6c99-41c0-8476-367796beea08</key>
+                    <parentUnit>
+                        <key name="name" value="Name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>FirSource</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirSource].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b99ee638-8062-41a5-a6c7-abb0807d9bc7</key>
+                    <parentUnit>
+                        <key name="name" value="FirSource" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="FirSource" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>SecSource</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecSource].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>031ea114-1ab2-4933-be43-17ee986dfcca</key>
+                    <parentUnit>
+                        <key name="name" value="SecSource" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="SecSource" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>TerSource</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[TerSource].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9092893c-934b-4b92-9737-95927b29f6b1</key>
+                    <parentUnit>
+                        <key name="name" value="TerSource" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="TerSource" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ComplainNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ComplainNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7118c86b-58a4-400b-a786-e65ac7cf22df</key>
+                    <parentUnit>
+                        <key name="name" value="ComplainNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ComplainNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ComplainName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ComplainName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>db5e9cc2-8b6b-44e2-933e-c7be7844a9ff</key>
+                    <parentUnit>
+                        <key name="name" value="ComplainName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ComplainName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>FirVis</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirVis].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5304477b-f505-4ca0-a0ab-c2bd6a6d08d9</key>
+                    <parentUnit>
+                        <key name="name" value="FirVis" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="FirVis" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>CreateOrg</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[CreateOrg].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>264b24f7-aef0-4ef7-8eab-97939ec687c7</key>
+                    <parentUnit>
+                        <key name="name" value="CreateOrg" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="CreateOrg" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Creater</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Creater].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d6a0cc8d-cbae-4735-9d20-2b1deef59d95</key>
+                    <parentUnit>
+                        <key name="name" value="Creater" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Creater" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Status</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Status].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>28cf8461-77c6-427d-9f8b-dfeeb01d516a</key>
+                    <parentUnit>
+                        <key name="name" value="Status" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Status" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Order</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Order].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f4299652-7e3b-488d-973b-cad5eb5e5532</key>
+                    <parentUnit>
+                        <key name="name" value="Order" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Order" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>RecDotNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecDotNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b72f5f4a-4536-4d0e-a103-56e3725a3f82</key>
+                    <parentUnit>
+                        <key name="name" value="RecDotNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="RecDotNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>RecDotName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecDotName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>775a97c7-fe30-4d25-978e-8d4a43d0260d</key>
+                    <parentUnit>
+                        <key name="name" value="RecDotName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="RecDotName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>NurseNUmber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[NurseNUmber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f5c0676a-c905-4254-bf11-52933ddc6f29</key>
+                    <parentUnit>
+                        <key name="name" value="NurseNUmber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="NurseNUmber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>RecNurse</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecNurse].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>87e4aa13-a892-4873-8fb5-dd5bc9e95c20</key>
+                    <parentUnit>
+                        <key name="name" value="RecNurse" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="RecNurse" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>NurseOrderDiag</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[NurseOrderDiag].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>12b8d6a8-1df8-473a-a712-46baff1c687e</key>
+                    <parentUnit>
+                        <key name="name" value="NurseOrderDiag" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="NurseOrderDiag" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>RecConNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecConNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0f059c08-920a-4fa7-9613-eb9be03c1b71</key>
+                    <parentUnit>
+                        <key name="name" value="RecConNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="RecConNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>RecConName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecConName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a217f236-dd86-4497-8250-3487ec920db5</key>
+                    <parentUnit>
+                        <key name="name" value="RecConName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="RecConName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ExcConNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ExcConNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2e93759d-44ae-4a18-95d9-de1c3985525f</key>
+                    <parentUnit>
+                        <key name="name" value="ExcConNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ExcConNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ExcConName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ExcConName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a4cb54b3-fa48-4911-9eb9-17e109b0215d</key>
+                    <parentUnit>
+                        <key name="name" value="ExcConName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ExcConName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>FirClassNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirClassNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>97602ca3-5546-4ac0-b114-391ab00f59dc</key>
+                    <parentUnit>
+                        <key name="name" value="FirClassNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="FirClassNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>FirClassName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirClassName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>882a115d-0db1-4f50-bc8f-53ab5e78b7b0</key>
+                    <parentUnit>
+                        <key name="name" value="FirClassName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="FirClassName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>SecClassNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecClassNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9a77a68f-5a98-47de-b87f-6900b212eb39</key>
+                    <parentUnit>
+                        <key name="name" value="SecClassNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="SecClassNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>SecClassName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecClassName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>723babd5-9eab-40b3-8359-63f71e67411e</key>
+                    <parentUnit>
+                        <key name="name" value="SecClassName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="SecClassName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>FeeItemDetail</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FeeItemDetail].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3a4e7598-7164-4dff-a3fb-a0f58175f092</key>
+                    <parentUnit>
+                        <key name="name" value="FeeItemDetail" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="FeeItemDetail" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>RecPerson</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecPerson].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b26555d5-4693-4236-b695-d7abd9a179a3</key>
+                    <parentUnit>
+                        <key name="name" value="RecPerson" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="RecPerson" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Qty</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Qty].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ce0c37a7-c0a2-46bc-a5fe-5861f13d8fc2</key>
+                    <parentUnit>
+                        <key name="name" value="Qty" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Qty" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>OriPrice</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[OriPrice].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f41a8400-5dce-4cb7-9af2-855503eea660</key>
+                    <parentUnit>
+                        <key name="name" value="OriPrice" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="OriPrice" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Income</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Income].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c5e1a90f-b369-40fc-9fd7-b2ec6b354fef</key>
+                    <parentUnit>
+                        <key name="name" value="Income" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Income" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Discount</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Discount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9176e8bc-c3a1-4d9b-ab86-23ebec4acc3c</key>
+                    <parentUnit>
+                        <key name="name" value="Discount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Discount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>TotalPrice</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[TotalPrice].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a6910c72-38d2-48cb-a424-43efdc974a15</key>
+                    <parentUnit>
+                        <key name="name" value="TotalPrice" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="TotalPrice" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Payment</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Payment].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ec89c589-997e-4f7e-8ee2-2721fe5d42b3</key>
+                    <parentUnit>
+                        <key name="name" value="Payment" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Payment" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>GiftPayment</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[GiftPayment].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>fa8e1c2c-be6d-49c4-a93a-f51bf323be7c</key>
+                    <parentUnit>
+                        <key name="name" value="GiftPayment" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="GiftPayment" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>cityNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[cityNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3639c068-a45f-440f-b1fd-42c876c992d6</key>
+                    <parentUnit>
+                        <key name="name" value="cityNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cityNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>feeItemDetailNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[feeItemDetailNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0d365460-339c-4eb7-a568-5ada0aa44b72</key>
+                    <parentUnit>
+                        <key name="name" value="feeItemDetailNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="feeItemDetailNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isRoutine</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isRoutine].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>65932b04-1daf-4972-85c3-9447c01cfd36</key>
+                    <parentUnit>
+                        <key name="name" value="isRoutine" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isRoutine" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>busiType</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[busiType].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8bf50bf6-49c6-4dc1-87cd-8dd33d284459</key>
+                    <parentUnit>
+                        <key name="name" value="busiType" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="busiType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>hisOrderId</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[hisOrderId].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>01c79c2e-4dfb-4fa6-8f42-32ec643bd4d5</key>
+                    <parentUnit>
+                        <key name="name" value="hisOrderId" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="hisOrderId" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>iscount</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[iscount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>205c4691-d40c-4f2f-aeb8-6a3fea201f6c</key>
+                    <parentUnit>
+                        <key name="name" value="iscount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="iscount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>hisdetailid</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[hisdetailid].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b616ef03-3394-4d4f-be91-61f85c5fa0b7</key>
+                    <parentUnit>
+                        <key name="name" value="hisdetailid" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="hisdetailid" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isneedout</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isneedout].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>62cd35ee-0a42-4b1d-8787-f55617a52b35</key>
+                    <parentUnit>
+                        <key name="name" value="isneedout" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isneedout" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isout</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isout].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3c0a47f1-32db-4386-9797-15c3a3f5f9cd</key>
+                    <parentUnit>
+                        <key name="name" value="isout" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isout" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>businessDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[businessDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>83f9966a-6b72-4c5a-948b-02160f4b576a</key>
+                    <parentUnit>
+                        <key name="name" value="businessDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="businessDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>RecPersonNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecPersonNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>198b0ac2-4213-40b6-a719-2baee266d08b</key>
+                    <parentUnit>
+                        <key name="name" value="RecPersonNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="RecPersonNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>docAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[docAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>43c99982-3aa0-4dde-83b1-a52c98c0149b</key>
+                    <parentUnit>
+                        <key name="name" value="docAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="docAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>zxAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[zxAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>20bbbbe8-5541-4486-87e7-ecee35934421</key>
+                    <parentUnit>
+                        <key name="name" value="zxAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="zxAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>countAchieve</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[countAchieve].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7c9b89a3-ef6a-4ea1-8abd-939d662d5bb0</key>
+                    <parentUnit>
+                        <key name="name" value="countAchieve" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="AchieveDetailTem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="countAchieve" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.mw.pay.app" />
+            <key name="name" value="AchieveDetailTemQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="AchieveDetailTem" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="AchieveDetailTem" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin1" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="AchieveDetailTem" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit4" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin2" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="AchieveDetailTem" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="handler" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit9" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit8" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="AchieveDetailTemQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际业绩明细临时表" />
+            <lang locale="zh_HK" value="實際業績明細臨時表" />
+            <lang locale="zh_TW" value="實際業績明細臨時表" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="多分录基础单据模板" />
+            <lang locale="zh_CN" value="多分录基础单据模板" />
+            <lang locale="zh_TW" value="多分录基础单据模板" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多分录基础单据查询" />
+            <lang locale="zh_HK" value="多分錄基礎單據查詢" />
+            <lang locale="zh_TW" value="多分錄基礎單據查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.PayResource.AchieveDetailTemQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.PayResource.AchieveDetailTemQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.PayResource.AchieveDetailTemQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="实际业绩明细核对表" />
+            <lang locale="zh_CN" value="实际业绩明细核对表" />
+            <lang locale="zh_TW" value="实际业绩明细核对表" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].subObjects.subEntity[AchieveDetailTem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].subObjects.subEntity[handler].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit8].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.propertyUnit[NewUnit9].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[CaseNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="病历号" />
+            <lang locale="zh_HK" value="病歷號" />
+            <lang locale="zh_TW" value="病歷號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[CaseNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[CaseNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[City].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[City].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[City].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ClinicName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊" />
+            <lang locale="zh_HK" value="門診" />
+            <lang locale="zh_TW" value="門診" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ClinicName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ClinicName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ClinicNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊编码" />
+            <lang locale="zh_HK" value="門診編碼" />
+            <lang locale="zh_TW" value="門診編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ClinicNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ClinicNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ComplainName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主诉" />
+            <lang locale="zh_HK" value="主訴" />
+            <lang locale="zh_TW" value="主訴" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ComplainName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ComplainName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ComplainNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主诉编码" />
+            <lang locale="zh_HK" value="主訴編碼" />
+            <lang locale="zh_TW" value="主訴編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ComplainNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ComplainNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[CreateOrg].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建机构" />
+            <lang locale="zh_HK" value="創建機構" />
+            <lang locale="zh_TW" value="創建機構" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[CreateOrg].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[CreateOrg].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Creater].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建人" />
+            <lang locale="zh_HK" value="創建人" />
+            <lang locale="zh_TW" value="創建人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Creater].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Creater].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Discount].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="折扣" />
+            <lang locale="zh_HK" value="折扣" />
+            <lang locale="zh_TW" value="折扣" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Discount].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Discount].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ExcConName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="专属咨询" />
+            <lang locale="zh_HK" value="專屬諮詢" />
+            <lang locale="zh_TW" value="專屬諮詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ExcConName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ExcConName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ExcConNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="专属咨询编码" />
+            <lang locale="zh_HK" value="專屬諮詢編碼" />
+            <lang locale="zh_TW" value="專屬諮詢編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ExcConNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[ExcConNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FeeItemDetail].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项" />
+            <lang locale="zh_HK" value="收費項" />
+            <lang locale="zh_TW" value="收費項" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FeeItemDetail].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FeeItemDetail].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirClassName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="一级分类" />
+            <lang locale="zh_HK" value="一級分類" />
+            <lang locale="zh_TW" value="一級分類" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirClassName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirClassName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirClassNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="一级分类编码" />
+            <lang locale="zh_HK" value="一級分類編碼" />
+            <lang locale="zh_TW" value="一級分類編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirClassNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirClassNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirSource].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="一级来源" />
+            <lang locale="zh_HK" value="一級來源" />
+            <lang locale="zh_TW" value="一級來源" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirSource].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirSource].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirVis].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="初诊日期" />
+            <lang locale="zh_HK" value="初診日期" />
+            <lang locale="zh_TW" value="初診日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirVis].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[FirVis].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Fivouchered].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Fivouchered].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Fivouchered].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[GiftPayment].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="赠金支付" />
+            <lang locale="zh_HK" value="贈金支付" />
+            <lang locale="zh_TW" value="贈金支付" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[GiftPayment].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[GiftPayment].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Income].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="营业收入" />
+            <lang locale="zh_HK" value="營業收入" />
+            <lang locale="zh_TW" value="營業收入" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Income].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Income].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓名" />
+            <lang locale="zh_HK" value="姓名" />
+            <lang locale="zh_TW" value="姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[NurseNUmber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护士编码" />
+            <lang locale="zh_HK" value="護士編碼" />
+            <lang locale="zh_TW" value="護士編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[NurseNUmber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[NurseNUmber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[NurseOrderDiag].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护士洁牙点诊" />
+            <lang locale="zh_HK" value="護士潔牙點診" />
+            <lang locale="zh_TW" value="護士潔牙點診" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[NurseOrderDiag].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[NurseOrderDiag].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Order].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="预约人" />
+            <lang locale="zh_HK" value="預約人" />
+            <lang locale="zh_TW" value="預約人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Order].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Order].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[OriPrice].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="原价" />
+            <lang locale="zh_HK" value="原價" />
+            <lang locale="zh_TW" value="原價" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[OriPrice].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[OriPrice].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Payment].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="支付" />
+            <lang locale="zh_HK" value="支付" />
+            <lang locale="zh_TW" value="支付" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Payment].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Payment].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Qty].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数量" />
+            <lang locale="zh_HK" value="數量" />
+            <lang locale="zh_TW" value="數量" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Qty].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Qty].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecConName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="接诊咨询" />
+            <lang locale="zh_HK" value="接診諮詢" />
+            <lang locale="zh_TW" value="接診諮詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecConName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecConName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecConNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="接诊咨询编码" />
+            <lang locale="zh_HK" value="接診諮詢編碼" />
+            <lang locale="zh_TW" value="接診諮詢編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecConNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecConNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecDotName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="接诊医生" />
+            <lang locale="zh_HK" value="接診醫生" />
+            <lang locale="zh_TW" value="接診醫生" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecDotName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecDotName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecDotNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="接诊医生编码" />
+            <lang locale="zh_HK" value="接診醫生編碼" />
+            <lang locale="zh_TW" value="接診醫生編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecDotNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecDotNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecNurse].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="接诊护士" />
+            <lang locale="zh_HK" value="接診護士" />
+            <lang locale="zh_TW" value="接診護士" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecNurse].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecNurse].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecPersonNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收款人编码" />
+            <lang locale="zh_HK" value="收款人編碼" />
+            <lang locale="zh_TW" value="收款人編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecPersonNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecPersonNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecPerson].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收款人" />
+            <lang locale="zh_HK" value="收款人" />
+            <lang locale="zh_TW" value="收款人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecPerson].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[RecPerson].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecClassName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="二级分类" />
+            <lang locale="zh_HK" value="二級分類" />
+            <lang locale="zh_TW" value="二級分類" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecClassName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecClassName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecClassNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="二级分类编码" />
+            <lang locale="zh_HK" value="二級分類編碼" />
+            <lang locale="zh_TW" value="二級分類編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecClassNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecClassNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecSource].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="二级来源" />
+            <lang locale="zh_HK" value="二級來源" />
+            <lang locale="zh_TW" value="二級來源" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecSource].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[SecSource].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Status].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Status].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[Status].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[TerSource].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="三级来源" />
+            <lang locale="zh_HK" value="三級來源" />
+            <lang locale="zh_TW" value="三級來源" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[TerSource].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[TerSource].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[TotalPrice].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总价" />
+            <lang locale="zh_HK" value="總價" />
+            <lang locale="zh_TW" value="總價" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[TotalPrice].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[TotalPrice].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[auditor.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[auditor.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[bizDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[bizDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[bizDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[busiType].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务类型" />
+            <lang locale="zh_HK" value="業務類型" />
+            <lang locale="zh_TW" value="業務類型" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[busiType].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[busiType].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[businessDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务期间" />
+            <lang locale="zh_HK" value="業務期間" />
+            <lang locale="zh_TW" value="業務期間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[businessDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[businessDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[cityNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市编码" />
+            <lang locale="zh_HK" value="城市編碼" />
+            <lang locale="zh_TW" value="城市編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[cityNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[cityNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[countAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计算业绩" />
+            <lang locale="zh_HK" value="計算業績" />
+            <lang locale="zh_TW" value="計算業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[countAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[countAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[creator.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[description].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[docAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="医生计算业绩" />
+            <lang locale="zh_HK" value="醫生計算業績" />
+            <lang locale="zh_TW" value="醫生計算業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[docAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[docAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[feeItemDetailNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目编码" />
+            <lang locale="zh_HK" value="收費項目編碼" />
+            <lang locale="zh_TW" value="收費項目編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[feeItemDetailNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[feeItemDetailNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[handler.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[handler.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[hisOrderId].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="his消费订单ID" />
+            <lang locale="zh_HK" value="his消費訂單ID" />
+            <lang locale="zh_TW" value="his消費訂單ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[hisOrderId].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[hisOrderId].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[hisdetailid].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="his消费订单详细id" />
+            <lang locale="zh_HK" value="his消費訂單詳細id" />
+            <lang locale="zh_TW" value="his消費訂單詳細id" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[hisdetailid].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[hisdetailid].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isRoutine].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否常规" />
+            <lang locale="zh_HK" value="是否常規" />
+            <lang locale="zh_TW" value="是否常規" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isRoutine].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isRoutine].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[iscount].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否统计" />
+            <lang locale="zh_HK" value="是否統計" />
+            <lang locale="zh_TW" value="是否統計" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[iscount].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[iscount].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isneedout].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否需要出库" />
+            <lang locale="zh_HK" value="是否需要出庫" />
+            <lang locale="zh_TW" value="是否需要出庫" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isneedout].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isneedout].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isout].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否出库" />
+            <lang locale="zh_HK" value="是否出庫" />
+            <lang locale="zh_TW" value="是否出庫" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isout].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[isout].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[lastUpdateUser.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[zxAchieve].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="咨询计算业绩" />
+            <lang locale="zh_HK" value="諮詢計算業績" />
+            <lang locale="zh_TW" value="諮詢計算業績" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[zxAchieve].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.AchieveDetailTemQuery].units.queryField[zxAchieve].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

@@ -1,0 +1,4083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.app</package>
+    <name>CostSumQuery</name>
+    <alias>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.mw.pay.CostSum</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>CostSum</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].subObjects.subEntity[CostSum].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSum" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>handler</name>
+            <alias>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].subObjects.subEntity[handler].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[auditor.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[creator.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[lastUpdateUser.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[handler.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[handler.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit9</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="handler" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit8</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Fivouchered</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[Fivouchered].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="Fivouchered" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Fivouchered" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>doctorNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[doctorNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bfd1234d-039d-43b2-a608-d90e2e1f421e</key>
+                    <parentUnit>
+                        <key name="name" value="doctorNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="doctorNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>qty</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[qty].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a86f8a9e-b057-4450-9aff-482bdcf6f27e</key>
+                    <parentUnit>
+                        <key name="name" value="qty" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="qty" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>price</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[price].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f44d063f-63c2-4de0-9d9a-adc7710666c7</key>
+                    <parentUnit>
+                        <key name="name" value="price" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="price" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amount</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[amount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a95a43c4-b22f-4c60-8362-795b51ba82a4</key>
+                    <parentUnit>
+                        <key name="name" value="amount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>remark</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[remark].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3e37266a-62ed-44cb-b596-80bcba6413bd</key>
+                    <parentUnit>
+                        <key name="name" value="remark" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="remark" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>doctorName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[doctorName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e8cb0757-5fd6-497b-92f0-55c66fcf448b</key>
+                    <parentUnit>
+                        <key name="name" value="doctorName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="doctorName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>period</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[period].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ca897cf2-b80b-4808-b988-5623f1a5b201</key>
+                    <parentUnit>
+                        <key name="name" value="period" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="period" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>jgfyxjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfyxjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>acd1f289-884b-44ff-896c-3f79c935436d</key>
+                    <parentUnit>
+                        <key name="name" value="jgfyxjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="jgfyxjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>jgfcgjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfcgjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d0aa7c4d-6f7c-476e-9232-aacfc7b7e719</key>
+                    <parentUnit>
+                        <key name="name" value="jgfcgjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="jgfcgjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>jgfknw</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfknw].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ceb7c28c-af2c-4bf0-874d-7bd08e1da68f</key>
+                    <parentUnit>
+                        <key name="name" value="jgfknw" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="jgfknw" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>jgfxf</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfxf].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>96fbaf60-4503-446d-ba75-68bb6bbdf51a</key>
+                    <parentUnit>
+                        <key name="name" value="jgfxf" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="jgfxf" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>jgfey</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfey].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>76e3b231-ab78-433c-807c-1016d6dcc686</key>
+                    <parentUnit>
+                        <key name="name" value="jgfey" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="jgfey" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>jgfyz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfyz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>af835760-35da-4894-9a53-11d9cbb52aa2</key>
+                    <parentUnit>
+                        <key name="name" value="jgfyz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="jgfyz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>jgfmb</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfmb].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>043914ea-0897-4ac5-af95-be7f778264a1</key>
+                    <parentUnit>
+                        <key name="name" value="jgfmb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="jgfmb" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>jgfzz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfzz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>00c4efc5-1607-4160-8f69-c1ada31b3056</key>
+                    <parentUnit>
+                        <key name="name" value="jgfzz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="jgfzz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xhzz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhzz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8904fa7b-bb8e-4f39-ab5e-1480eb7685a2</key>
+                    <parentUnit>
+                        <key name="name" value="xhzz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xhzz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xhyxjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhyxjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d152c15e-882a-457b-b63e-e436f9552fea</key>
+                    <parentUnit>
+                        <key name="name" value="xhyxjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xhyxjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xhcgjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhcgjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d48043af-a6b6-4b24-b75a-ebb7440571c9</key>
+                    <parentUnit>
+                        <key name="name" value="xhcgjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xhcgjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xhknw</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhknw].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0412bdc8-4521-4522-a3d9-59ef0720c2af</key>
+                    <parentUnit>
+                        <key name="name" value="xhknw" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xhknw" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xhxf</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhxf].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>eef98fd2-6f80-4f4a-8569-7e05931e20a7</key>
+                    <parentUnit>
+                        <key name="name" value="xhxf" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xhxf" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xhey</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhey].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9ba1c639-2744-4208-b9a1-6a7f8fdc556d</key>
+                    <parentUnit>
+                        <key name="name" value="xhey" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xhey" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xhyz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhyz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>66db6193-ab7f-46e1-b7b1-8236010947bc</key>
+                    <parentUnit>
+                        <key name="name" value="xhyz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xhyz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>clinicNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[clinicNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a7017b0b-190b-4d7d-beec-7a0c8a36233d</key>
+                    <parentUnit>
+                        <key name="name" value="clinicNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="clinicNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>clinicName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[clinicName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4dd8abfe-3fb8-4798-a600-507aec1871a9</key>
+                    <parentUnit>
+                        <key name="name" value="clinicName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="clinicName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>xhmb</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhmb].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>00288d5d-8c8e-41ad-a0f5-ed318e5c39f2</key>
+                    <parentUnit>
+                        <key name="name" value="xhmb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="xhmb" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>cityNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[cityNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8449f260-ebfc-4a77-9462-aa843e54053e</key>
+                    <parentUnit>
+                        <key name="name" value="cityNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cityNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>cityName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[cityName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0efea805-7515-47d8-a246-830fdcae9f55</key>
+                    <parentUnit>
+                        <key name="name" value="cityName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cityName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>status</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[status].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a29caa1a-fad2-4835-b041-039ed46a04ba</key>
+                    <parentUnit>
+                        <key name="name" value="status" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="status" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upxhzz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhzz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b21aabb5-96e9-43a5-9b65-9e4565e72098</key>
+                    <parentUnit>
+                        <key name="name" value="upxhzz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upxhzz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upxhyxjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhyxjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4e2b6ed8-26d8-48c9-b4a3-8cca1567bba0</key>
+                    <parentUnit>
+                        <key name="name" value="upxhyxjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upxhyxjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upxhcgjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhcgjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c8005eee-481e-421e-b41b-dc4f7e845119</key>
+                    <parentUnit>
+                        <key name="name" value="upxhcgjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upxhcgjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upxhknw</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhknw].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>dce1f8f0-dc5d-4468-9edf-e7edd8ad10d5</key>
+                    <parentUnit>
+                        <key name="name" value="upxhknw" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upxhknw" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upxhxf</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhxf].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1e707f40-958f-43d5-84fc-3e86aeb5bf2d</key>
+                    <parentUnit>
+                        <key name="name" value="upxhxf" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upxhxf" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upxhey</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhey].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>16e76733-6a2a-4ad5-b89d-0f6008354484</key>
+                    <parentUnit>
+                        <key name="name" value="upxhey" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upxhey" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upxhyz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhyz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>56cb19e8-2201-4137-b7c3-ae0132be0e82</key>
+                    <parentUnit>
+                        <key name="name" value="upxhyz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upxhyz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upxhmb</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhmb].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>db1dbe2a-946d-41be-8e5b-ef14d39e5a11</key>
+                    <parentUnit>
+                        <key name="name" value="upxhmb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upxhmb" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upjgfzz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfzz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2a3473dc-4a08-4f21-94a7-3123f2f56cc1</key>
+                    <parentUnit>
+                        <key name="name" value="upjgfzz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upjgfzz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upjgfyxjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfyxjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ded687fc-106a-4a70-b367-d4be62966c41</key>
+                    <parentUnit>
+                        <key name="name" value="upjgfyxjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upjgfyxjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upjgfcgjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfcgjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2c10f968-5977-4532-b511-9f2decc19e75</key>
+                    <parentUnit>
+                        <key name="name" value="upjgfcgjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upjgfcgjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upjgfknw</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfknw].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7f353f6c-827b-4e1d-85fc-14caa9470d33</key>
+                    <parentUnit>
+                        <key name="name" value="upjgfknw" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upjgfknw" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upjgfxf</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfxf].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>18662f48-5f1d-4330-84a5-be5994b37021</key>
+                    <parentUnit>
+                        <key name="name" value="upjgfxf" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upjgfxf" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upjgfey</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfey].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c1a1f1ac-aba9-4b3f-a93b-b4b91966a738</key>
+                    <parentUnit>
+                        <key name="name" value="upjgfey" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upjgfey" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upjgfyz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfyz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>02f6bbc3-4c39-4c9c-bb66-206d6ed547cd</key>
+                    <parentUnit>
+                        <key name="name" value="upjgfyz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upjgfyz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upjgfmb</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfmb].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>50056ed1-3927-4b04-8275-f34a920767c7</key>
+                    <parentUnit>
+                        <key name="name" value="upjgfmb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upjgfmb" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>allxhzz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhzz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>61d17627-45a9-4847-a973-afa12964a4d3</key>
+                    <parentUnit>
+                        <key name="name" value="allxhzz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="allxhzz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>allxhyxjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhyxjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>06bb7030-20ef-47b5-b409-350864c504f9</key>
+                    <parentUnit>
+                        <key name="name" value="allxhyxjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="allxhyxjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>allxhcgjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhcgjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>99df5628-4c1d-4cc7-a9f5-f31c215144a5</key>
+                    <parentUnit>
+                        <key name="name" value="allxhcgjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="allxhcgjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>allxhknw</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhknw].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0b20fcdb-01e7-40c9-8dea-950d96eb6f3a</key>
+                    <parentUnit>
+                        <key name="name" value="allxhknw" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="allxhknw" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>allxhxf</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhxf].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ab6e9c78-bb9d-4276-aa92-55adea8a00a8</key>
+                    <parentUnit>
+                        <key name="name" value="allxhxf" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="allxhxf" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>allxhey</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhey].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cbc36e92-6f91-4d28-8d4d-caadcf6b14c7</key>
+                    <parentUnit>
+                        <key name="name" value="allxhey" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="allxhey" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>allxhyz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhyz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0934af75-cebc-4996-b11b-06648c98d80c</key>
+                    <parentUnit>
+                        <key name="name" value="allxhyz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="allxhyz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>allxhmb</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhmb].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0dca1028-e8ea-4d94-a7a8-0783ace71283</key>
+                    <parentUnit>
+                        <key name="name" value="allxhmb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="allxhmb" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>alljgfzz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfzz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>aba58d3d-ca4c-4144-be6d-fd9ce8a6a43a</key>
+                    <parentUnit>
+                        <key name="name" value="alljgfzz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="alljgfzz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>alljgfyxjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfyxjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>eea7d64b-ea37-4535-92f0-31d63abe212e</key>
+                    <parentUnit>
+                        <key name="name" value="alljgfyxjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="alljgfyxjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>alljgfgdjz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfgdjz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5aa4d11b-58f0-491b-abf8-93dda6aea1dd</key>
+                    <parentUnit>
+                        <key name="name" value="alljgfgdjz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="alljgfgdjz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>alljgfknw</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfknw].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>25cc63ee-f9be-414f-bd49-e53709c79a77</key>
+                    <parentUnit>
+                        <key name="name" value="alljgfknw" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="alljgfknw" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>alljgfxf</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfxf].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1304ed5d-20bf-477c-9dea-8189e67d6f65</key>
+                    <parentUnit>
+                        <key name="name" value="alljgfxf" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="alljgfxf" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>alljgfey</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfey].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>889910c0-5c12-4130-9e6e-7068e49737b6</key>
+                    <parentUnit>
+                        <key name="name" value="alljgfey" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="alljgfey" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>alljgfyz</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfyz].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b0ee9f66-e796-46cd-a5ab-b32b711d14bf</key>
+                    <parentUnit>
+                        <key name="name" value="alljgfyz" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="alljgfyz" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>alljgfmb</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfmb].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6fb984f3-10d5-450a-a300-9b2ff7130de0</key>
+                    <parentUnit>
+                        <key name="name" value="alljgfmb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="alljgfmb" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>iszidai</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[iszidai].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>dfbf52ce-6d1e-43be-8328-8a26f3f372a8</key>
+                    <parentUnit>
+                        <key name="name" value="iszidai" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CostSum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="iszidai" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.mw.pay.app" />
+            <key name="name" value="CostSumQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="CostSum" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="CostSum" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin1" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="CostSum" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit4" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin2" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="CostSum" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="handler" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit9" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit8" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostSumQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本汇总" />
+            <lang locale="zh_HK" value="成本匯總" />
+            <lang locale="zh_TW" value="成本匯總" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="多分录基础单据模板" />
+            <lang locale="zh_CN" value="多分录基础单据模板" />
+            <lang locale="zh_TW" value="多分录基础单据模板" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多分录基础单据查询" />
+            <lang locale="zh_HK" value="多分錄基礎單據查詢" />
+            <lang locale="zh_TW" value="多分錄基礎單據查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.PayResource.CostSumQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.PayResource.CostSumQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.PayResource.CostSumQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="成本汇总" />
+            <lang locale="zh_CN" value="成本汇总" />
+            <lang locale="zh_TW" value="成本汇总" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].subObjects.subEntity[CostSum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].subObjects.subEntity[handler].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit8].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.propertyUnit[NewUnit9].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[Fivouchered].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[Fivouchered].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[Fivouchered].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfey].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总加工费儿牙" />
+            <lang locale="zh_HK" value="匯總加工費兒牙" />
+            <lang locale="zh_TW" value="匯總加工費兒牙" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfey].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfey].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfgdjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总加工费常规矫正" />
+            <lang locale="zh_HK" value="匯總加工費常規矯正" />
+            <lang locale="zh_TW" value="匯總加工費常規矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfgdjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfgdjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfknw].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总加工费口内外" />
+            <lang locale="zh_HK" value="匯總加工費口內外" />
+            <lang locale="zh_TW" value="匯總加工費口內外" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfknw].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfknw].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfmb].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总加工费美白" />
+            <lang locale="zh_HK" value="匯總加工費美白" />
+            <lang locale="zh_TW" value="匯總加工費美白" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfmb].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfmb].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfxf].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总加工费修复" />
+            <lang locale="zh_HK" value="匯總加工費修復" />
+            <lang locale="zh_TW" value="匯總加工費修復" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfxf].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfxf].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfyxjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总加工费隐形矫正" />
+            <lang locale="zh_HK" value="匯總加工費隱形矯正" />
+            <lang locale="zh_TW" value="匯總加工費隱形矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfyxjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfyxjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfyz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总加工费牙周" />
+            <lang locale="zh_HK" value="匯總加工費牙周" />
+            <lang locale="zh_TW" value="匯總加工費牙周" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfyz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfyz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfzz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总加工费种植" />
+            <lang locale="zh_HK" value="匯總加工費種植" />
+            <lang locale="zh_TW" value="匯總加工費種植" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfzz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[alljgfzz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhcgjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总消耗常规矫正" />
+            <lang locale="zh_HK" value="匯總消耗常規矯正" />
+            <lang locale="zh_TW" value="匯總消耗常規矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhcgjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhcgjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhey].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总消耗儿牙" />
+            <lang locale="zh_HK" value="匯總消耗兒牙" />
+            <lang locale="zh_TW" value="匯總消耗兒牙" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhey].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhey].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhknw].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总消耗口内外" />
+            <lang locale="zh_HK" value="匯總消耗口內外" />
+            <lang locale="zh_TW" value="匯總消耗口內外" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhknw].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhknw].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhmb].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总消耗美白" />
+            <lang locale="zh_HK" value="匯總消耗美白" />
+            <lang locale="zh_TW" value="匯總消耗美白" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhmb].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhmb].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhxf].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总消耗修复" />
+            <lang locale="zh_HK" value="匯總消耗修復" />
+            <lang locale="zh_TW" value="匯總消耗修復" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhxf].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhxf].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhyxjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总消耗隐形矫正" />
+            <lang locale="zh_HK" value="匯總消耗隱形矯正" />
+            <lang locale="zh_TW" value="匯總消耗隱形矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhyxjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhyxjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhyz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总消耗牙周" />
+            <lang locale="zh_HK" value="匯總消耗牙周" />
+            <lang locale="zh_TW" value="匯總消耗牙周" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhyz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhyz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhzz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇总消耗种植" />
+            <lang locale="zh_HK" value="匯總消耗種植" />
+            <lang locale="zh_TW" value="匯總消耗種植" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhzz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[allxhzz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[amount].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="金额" />
+            <lang locale="zh_HK" value="金額" />
+            <lang locale="zh_TW" value="金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[amount].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[amount].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[auditor.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[auditor.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[bizDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[bizDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[bizDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[cityName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市名称" />
+            <lang locale="zh_HK" value="城市名稱" />
+            <lang locale="zh_TW" value="城市名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[cityName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[cityName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[cityNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市编码" />
+            <lang locale="zh_HK" value="城市編碼" />
+            <lang locale="zh_TW" value="城市編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[cityNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[cityNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[clinicName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊名称" />
+            <lang locale="zh_HK" value="門診名稱" />
+            <lang locale="zh_TW" value="門診名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[clinicName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[clinicName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[clinicNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊编码" />
+            <lang locale="zh_HK" value="門診編碼" />
+            <lang locale="zh_TW" value="門診編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[clinicNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[clinicNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[creator.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[description].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[doctorName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="医生姓名" />
+            <lang locale="zh_HK" value="醫生姓名" />
+            <lang locale="zh_TW" value="醫生姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[doctorName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[doctorName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[doctorNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="医生编码" />
+            <lang locale="zh_HK" value="醫生編碼" />
+            <lang locale="zh_TW" value="醫生編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[doctorNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[doctorNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[handler.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[handler.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[iszidai].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否自带" />
+            <lang locale="zh_HK" value="是否自帶" />
+            <lang locale="zh_TW" value="是否自帶" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[iszidai].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[iszidai].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfcgjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="常规矫正" />
+            <lang locale="zh_HK" value="常規矯正" />
+            <lang locale="zh_TW" value="常規矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfcgjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfcgjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfey].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="儿牙" />
+            <lang locale="zh_HK" value="兒牙" />
+            <lang locale="zh_TW" value="兒牙" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfey].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfey].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfknw].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="口内外" />
+            <lang locale="zh_HK" value="口內外" />
+            <lang locale="zh_TW" value="口內外" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfknw].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfknw].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfmb].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白" />
+            <lang locale="zh_HK" value="美白" />
+            <lang locale="zh_TW" value="美白" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfmb].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfmb].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfxf].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修复" />
+            <lang locale="zh_HK" value="修復" />
+            <lang locale="zh_TW" value="修復" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfxf].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfxf].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfyxjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="隐形矫正" />
+            <lang locale="zh_HK" value="隱形矯正" />
+            <lang locale="zh_TW" value="隱形矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfyxjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfyxjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfyz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="牙周" />
+            <lang locale="zh_HK" value="牙周" />
+            <lang locale="zh_TW" value="牙周" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfyz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfyz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfzz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="种植" />
+            <lang locale="zh_HK" value="種植" />
+            <lang locale="zh_TW" value="種植" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfzz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[jgfzz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[lastUpdateUser.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[period].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="期间" />
+            <lang locale="zh_HK" value="期間" />
+            <lang locale="zh_TW" value="期間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[period].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[period].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[price].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单价" />
+            <lang locale="zh_HK" value="單價" />
+            <lang locale="zh_TW" value="單價" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[price].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[price].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[qty].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数量" />
+            <lang locale="zh_HK" value="數量" />
+            <lang locale="zh_TW" value="數量" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[qty].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[qty].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[remark].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[remark].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[remark].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[status].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[status].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[status].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfcgjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整加工费常规矫正" />
+            <lang locale="zh_HK" value="調整加工費常規矯正" />
+            <lang locale="zh_TW" value="調整加工費常規矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfcgjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfcgjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfey].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整加工费儿牙" />
+            <lang locale="zh_HK" value="調整加工費兒牙" />
+            <lang locale="zh_TW" value="調整加工費兒牙" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfey].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfey].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfknw].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整加工费口内外" />
+            <lang locale="zh_HK" value="調整加工費口內外" />
+            <lang locale="zh_TW" value="調整加工費口內外" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfknw].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfknw].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfmb].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整加工费美白" />
+            <lang locale="zh_HK" value="調整加工費美白" />
+            <lang locale="zh_TW" value="調整加工費美白" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfmb].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfmb].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfxf].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整加工费修复" />
+            <lang locale="zh_HK" value="調整加工費修復" />
+            <lang locale="zh_TW" value="調整加工費修復" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfxf].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfxf].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfyxjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整加工费隐形矫正" />
+            <lang locale="zh_HK" value="調整加工費隱形矯正" />
+            <lang locale="zh_TW" value="調整加工費隱形矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfyxjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfyxjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfyz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整加工费牙周" />
+            <lang locale="zh_HK" value="調整加工費牙周" />
+            <lang locale="zh_TW" value="調整加工費牙周" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfyz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfyz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfzz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整加工费种植" />
+            <lang locale="zh_HK" value="調整加工費種植" />
+            <lang locale="zh_TW" value="調整加工費種植" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfzz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upjgfzz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhcgjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整消耗常规矫正" />
+            <lang locale="zh_HK" value="調整消耗常規矯正" />
+            <lang locale="zh_TW" value="調整消耗常規矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhcgjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhcgjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhey].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整消耗儿牙" />
+            <lang locale="zh_HK" value="調整消耗兒牙" />
+            <lang locale="zh_TW" value="調整消耗兒牙" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhey].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhey].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhknw].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整消耗口内外" />
+            <lang locale="zh_HK" value="調整消耗口內外" />
+            <lang locale="zh_TW" value="調整消耗口內外" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhknw].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhknw].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhmb].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整消耗美白" />
+            <lang locale="zh_HK" value="調整消耗美白" />
+            <lang locale="zh_TW" value="調整消耗美白" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhmb].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhmb].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhxf].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整消耗修复" />
+            <lang locale="zh_HK" value="調整消耗修復" />
+            <lang locale="zh_TW" value="調整消耗修復" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhxf].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhxf].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhyxjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整消耗隐形矫正" />
+            <lang locale="zh_HK" value="調整消耗隱形矯正" />
+            <lang locale="zh_TW" value="調整消耗隱形矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhyxjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhyxjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhyz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整消耗牙周" />
+            <lang locale="zh_HK" value="調整消耗牙周" />
+            <lang locale="zh_TW" value="調整消耗牙周" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhyz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhyz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhzz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调整消耗种植" />
+            <lang locale="zh_HK" value="調整消耗種植" />
+            <lang locale="zh_TW" value="調整消耗種植" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhzz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[upxhzz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhcgjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="常规矫正" />
+            <lang locale="zh_HK" value="常規矯正" />
+            <lang locale="zh_TW" value="常規矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhcgjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhcgjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhey].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="儿牙" />
+            <lang locale="zh_HK" value="兒牙" />
+            <lang locale="zh_TW" value="兒牙" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhey].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhey].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhknw].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="口内外" />
+            <lang locale="zh_HK" value="口內外" />
+            <lang locale="zh_TW" value="口內外" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhknw].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhknw].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhmb].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="美白" />
+            <lang locale="zh_HK" value="美白" />
+            <lang locale="zh_TW" value="美白" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhmb].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhmb].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhxf].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修复" />
+            <lang locale="zh_HK" value="修復" />
+            <lang locale="zh_TW" value="修復" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhxf].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhxf].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhyxjz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="隐形矫正" />
+            <lang locale="zh_HK" value="隱形矯正" />
+            <lang locale="zh_TW" value="隱形矯正" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhyxjz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhyxjz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhyz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="牙周" />
+            <lang locale="zh_HK" value="牙周" />
+            <lang locale="zh_TW" value="牙周" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhyz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhyz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhzz].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="种植" />
+            <lang locale="zh_HK" value="種植" />
+            <lang locale="zh_TW" value="種植" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhzz].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.mw.pay.app.CostSumQuery].units.queryField[xhzz].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

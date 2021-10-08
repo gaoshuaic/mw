@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.srqr.app</package>
+    <name>PayItem</name>
+    <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].alias</alias>
+    <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].description</description>
+    <userDefined>true</userDefined>
+    <bosType>2B2E091F</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.mw.srqr.PayItem</businessImplName>
+    <businessControllerName>com.kingdee.eas.mw.srqr.app.PayItemController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].description</description>
+            <innerID>9312486b-ffa8-43f8-9109-4fbe8b51f8ac</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.PayItem</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].description</description>
+            <innerID>718063fb-f567-4286-a752-312f0c5a218f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.PayItem</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].description</description>
+            <innerID>edb5e4b5-81a2-459c-90cb-3ea81057cf7d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.PayItem</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].description</description>
+            <innerID>a96a2a32-ba09-4459-801f-5f758c815cc1</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.PayItem</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].description</description>
+            <innerID>38007bdb-57e2-45bc-b320-bc29c1b96349</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.PayItem</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].description</description>
+            <innerID>fe1c75a8-0feb-46d2-bf77-2813db7d955d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.PayItem</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.mw.srqr.PayItem</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="DataBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+        <key name="name" value="CT_SRQ_PayItem" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>secondClass</name>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFSecondClassID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+                <key name="name" value="R_PayItem_Paytypeitem_secondClass" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>Status</name>
+            <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.mw.srqr.app.ItemStatusEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFStatus" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目" />
+            <lang locale="zh_HK" value="收費項目" />
+            <lang locale="zh_TW" value="收費項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.app.PaytypeitemQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.app.PaytypeitemQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.app.PaytypeitemQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.client.PaytypeitemEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.client.PaytypeitemEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.client.PaytypeitemEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.isUseCodeRule">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].defaultViewextendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.client.PaytypeitemListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.client.PaytypeitemListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.client.PaytypeitemListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="單級基礎資料範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.app.PayItemQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.app.PayItemQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.app.PayItemQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.client.PayItemEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.client.PayItemEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.client.PayItemEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.isUseCodeRule">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.srqr.client.PayItemListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.srqr.client.PayItemListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.srqr.client.PayItemListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="二级分类" />
+            <lang locale="zh_HK" value="二級分類" />
+            <lang locale="zh_TW" value="二級分類" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="二级分类" />
+            <lang locale="zh_HK" value="二級分類" />
+            <lang locale="zh_TW" value="二級分類" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.linkProperty[secondClass].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="N" />
+            <lang locale="zh_HK" value="N" />
+            <lang locale="zh_TW" value="N" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.defaultValue">
+            <lang locale="en_US" value="N" />
+            <lang locale="zh_CN" value="N" />
+            <lang locale="zh_TW" value="N" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.srqr.app.PayItem].properties.ownProperty[Status].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

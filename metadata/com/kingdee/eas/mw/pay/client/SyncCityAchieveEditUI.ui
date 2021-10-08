@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.client</package>
+    <name>SyncCityAchieveEditUI</name>
+    <alias>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.mw.pay.client</releasePackage>
+    <releaseClass>SyncCityAchieveEditUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <components>
+        <component>
+            <name>SyncCityAchieveEditUI</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[SyncCityAchieveEditUI].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,300,150</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>SyncCityAchieveEditUI_toolbar</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[SyncCityAchieveEditUI_toolbar].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDToolBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,30</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>FlowLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>SyncCityAchieveEditUI_menubar</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[SyncCityAchieveEditUI_menubar].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,28</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>kDBizPromptBoxCity</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>115,34,170,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>queryInfo</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].properties.property[queryInfo].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>displayFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].properties.property[displayFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].properties.property[editFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>commitFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].properties.property[commitFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editable</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].properties.property[editable].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="SyncCityAchieveEditUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabel1</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDLabel1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabel</classType>
+            <isContainer>false</isContainer>
+            <constraints>26,34,100,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDLabel1].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="SyncCityAchieveEditUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDButtonOK</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDButtonOK].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>32,96,73,21</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDButtonOK].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="SyncCityAchieveEditUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>kDButtonOK_actionPerformed</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>kDButtonOFF</name>
+            <alias>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDButtonOFF].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>200,96,73,21</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDButtonOFF].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="SyncCityAchieveEditUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>kDButtonOFF_actionPerformed</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+    </components>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[SyncCityAchieveEditUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[SyncCityAchieveEditUI_menubar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[SyncCityAchieveEditUI_toolbar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].properties.property[commitFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].properties.property[displayFormat].value">
+            <lang locale="en_US" value="$name$" />
+            <lang locale="zh_CN" value="$name$" />
+            <lang locale="zh_HK" value="$name$" />
+            <lang locale="zh_TW" value="$name$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].properties.property[editFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].properties.property[editable].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDBizPromptBoxCity].properties.property[queryInfo].value">
+            <lang locale="en_US" value="com.kingdee.eas.cp.bc.app.CtrlUnitF7Query" />
+            <lang locale="zh_CN" value="com.kingdee.eas.cp.bc.app.CtrlUnitF7Query" />
+            <lang locale="zh_HK" value="com.kingdee.eas.cp.bc.app.CtrlUnitF7Query" />
+            <lang locale="zh_TW" value="com.kingdee.eas.cp.bc.app.CtrlUnitF7Query" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDButtonOFF].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDButtonOFF].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="取消" />
+            <lang locale="zh_HK" value="取消" />
+            <lang locale="zh_TW" value="取消" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDButtonOK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDButtonOK].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="确定" />
+            <lang locale="zh_HK" value="確定" />
+            <lang locale="zh_TW" value="確定" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDLabel1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].components.component[kDLabel1].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="选择城市" />
+            <lang locale="zh_HK" value="選擇城市" />
+            <lang locale="zh_TW" value="選擇城市" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.pay.client.SyncCityAchieveEditUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</uiObject>
+

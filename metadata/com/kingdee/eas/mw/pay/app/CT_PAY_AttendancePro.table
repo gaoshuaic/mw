@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.app</package>
+    <name>CT_PAY_AttendancePro</name>
+    <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].alias</alias>
+    <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK>com.kingdee.eas.mw.pay.AttendancePro</bizUnitPK>
+    <columns>
+        <column>
+            <name>FName</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FName].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FNumber</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FDescription</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FDescription].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FDescription].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FSimpleName</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FSimpleName].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FSimpleName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FCreatorID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FCreateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FLastUpdateUserID</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FLastUpdateUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FLastUpdateUserID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FLastUpdateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FControlUnitID</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FControlUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FControlUnitID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>11111111-1111-1111-1111-111111111111CCE7AED4</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPostName</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFPostName].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFPostName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFEmpNumber</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFEmpNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFEmpNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFEmpName</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFEmpName].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFEmpName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFClinicNumber</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFClinicName</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicName].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPostNumber</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFPostNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFPostNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFClinicID</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicID].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCityID</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFCityID].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFCityID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFBusinessdate</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFBusinessdate].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFBusinessdate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFAttendPro</name>
+            <alias>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFAttendPro].alias</alias>
+            <description>dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFAttendPro].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>CPK_PAY_AtndnsPob4</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_PAY_PAYAPCrt7l</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCreatorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_PAY_PAYAPLUUgu</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FLastUpdateUserID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_PAY_PAYAPCnUo7</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_OUPartCtrl" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FUnitID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FControlUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_PAY_PAYAPFCIgh</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Company" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFClinicID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_PAY_PAYAPFCI5r</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_CtrlUnit" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFCityID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="考勤比例表" />
+            <lang locale="zh_HK" value="考勤比例表" />
+            <lang locale="zh_TW" value="考勤比例表" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFAttendPro].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="考勤比例" />
+            <lang locale="zh_HK" value="考勤比例" />
+            <lang locale="zh_TW" value="考勤比例" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFAttendPro].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="考勤比例" />
+            <lang locale="zh_HK" value="考勤比例" />
+            <lang locale="zh_TW" value="考勤比例" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFBusinessdate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务期间" />
+            <lang locale="zh_HK" value="業務期間" />
+            <lang locale="zh_TW" value="業務期間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFBusinessdate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务期间" />
+            <lang locale="zh_HK" value="業務期間" />
+            <lang locale="zh_TW" value="業務期間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFCityID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFCityID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊" />
+            <lang locale="zh_HK" value="門診" />
+            <lang locale="zh_TW" value="門診" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊" />
+            <lang locale="zh_HK" value="門診" />
+            <lang locale="zh_TW" value="門診" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊名称" />
+            <lang locale="zh_HK" value="門診名稱" />
+            <lang locale="zh_TW" value="門診名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊名称" />
+            <lang locale="zh_HK" value="門診名稱" />
+            <lang locale="zh_TW" value="門診名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊编码" />
+            <lang locale="zh_HK" value="門診編碼" />
+            <lang locale="zh_TW" value="門診編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFClinicNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊编码" />
+            <lang locale="zh_HK" value="門診編碼" />
+            <lang locale="zh_TW" value="門診編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFEmpName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工名称" />
+            <lang locale="zh_HK" value="員工名稱" />
+            <lang locale="zh_TW" value="員工名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFEmpName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工名称" />
+            <lang locale="zh_HK" value="員工名稱" />
+            <lang locale="zh_TW" value="員工名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFEmpNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工编码" />
+            <lang locale="zh_HK" value="員工編碼" />
+            <lang locale="zh_TW" value="員工編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFEmpNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工编码" />
+            <lang locale="zh_HK" value="員工編碼" />
+            <lang locale="zh_TW" value="員工編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFPostName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="岗位名称" />
+            <lang locale="zh_HK" value="崗位名稱" />
+            <lang locale="zh_TW" value="崗位名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFPostName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="岗位名称" />
+            <lang locale="zh_HK" value="崗位名稱" />
+            <lang locale="zh_TW" value="崗位名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFPostNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="岗位" />
+            <lang locale="zh_HK" value="崗位" />
+            <lang locale="zh_TW" value="崗位" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[CFPostNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="岗位" />
+            <lang locale="zh_HK" value="崗位" />
+            <lang locale="zh_TW" value="崗位" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FControlUnitID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FControlUnitID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FCreateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FCreateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FCreatorID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FCreatorID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FDescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FDescription].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FLastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FLastUpdateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FLastUpdateUserID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FLastUpdateUserID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FSimpleName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].columns.column[FSimpleName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.mw.pay.app.CT_PAY_AttendancePro].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="單級基礎資料範本" />
+        </rs>
+    </resource>
+</dataTable>
+

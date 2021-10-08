@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.srqr.app</package>
+    <name>R_StaffCityCostRelevance_AdminOrgUnit_city</name>
+    <alias>relationship[com.kingdee.eas.mw.srqr.app.R_StaffCityCostRelevance_AdminOrgUnit_city].alias</alias>
+    <description>relationship[com.kingdee.eas.mw.srqr.app.R_StaffCityCostRelevance_AdminOrgUnit_city].description</description>
+    <userDefined>true</userDefined>
+    <type>Association</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+        <key name="name" value="StaffCityCostRelevance" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.basedata.org.app" />
+        <key name="name" value="AdminOrgUnit" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.mw.srqr.app.R_StaffCityCostRelevance_AdminOrgUnit_city].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.mw.srqr.app.R_StaffCityCostRelevance_AdminOrgUnit_city].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</relationship>
+

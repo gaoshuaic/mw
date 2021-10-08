@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functionObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.app</package>
+    <name>CostEhrDetailListUIFunction</name>
+    <alias>functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].alias</alias>
+    <description>functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].description</description>
+    <userDefined>true</userDefined>
+    <isBindSingleBizObject>false</isBindSingleBizObject>
+    <operations>
+        <operation>
+            <name>ActionRemove</name>
+            <alias>functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[ActionRemove].alias</alias>
+            <description>functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[ActionRemove].description</description>
+            <reverseOperation />
+            <eventMethod>be5779dd-00fe-1000-e000-0007c0a813a9</eventMethod>
+            <event>deleteEvent</event>
+            <userDefined>true</userDefined>
+            <uiActionRef>
+                <id>74b6f5a7-0105-1000-e000-00f1c0a813a4uiaf</id>
+                <uiStatus />
+                <webUIStatus />
+                <userDefined>true</userDefined>
+                <uiObjectRef>
+                    <key name="package" value="com.kingdee.eas.mw.pay.client" />
+                    <key name="name" value="CostEhrDetailListUI" />
+                </uiObjectRef>
+                <actionRefName>ActionRemove</actionRefName>
+                <webActionRefName />
+                <parameters>
+                    <parameter>
+                        <name>billid</name>
+                        <alias>functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[ActionRemove].uiActionRef.parameters.parameter[billid].alias</alias>
+                        <description>functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[ActionRemove].uiActionRef.parameters.parameter[billid].description</description>
+                        <direction>in</direction>
+                        <dataType>BOSUuid</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </parameters>
+            </uiActionRef>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostEhrDetail" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>syncMiddata</name>
+            <alias>functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[syncMiddata].alias</alias>
+            <description>functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[syncMiddata].description</description>
+            <reverseOperation />
+            <eventMethod>308735b7-bd5d-4a68-b854-9a1aef6d8cf3</eventMethod>
+            <event>syncMiddataEvent</event>
+            <userDefined>true</userDefined>
+            <uiActionRef>
+                <id>84987c11-f025-497e-b00b-91948a672bfauiaf</id>
+                <uiStatus />
+                <webUIStatus />
+                <userDefined>true</userDefined>
+                <uiObjectRef>
+                    <key name="package" value="com.kingdee.eas.mw.pay.client" />
+                    <key name="name" value="CostEhrDetailListUI" />
+                </uiObjectRef>
+                <actionRefName>ActionSyncMiddata</actionRefName>
+                <webActionRefName />
+                <parameters>
+                    <parameter>
+                        <name>billID</name>
+                        <alias>functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[syncMiddata].uiActionRef.parameters.parameter[billID].alias</alias>
+                        <description>functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[syncMiddata].uiActionRef.parameters.parameter[billID].description</description>
+                        <direction>in</direction>
+                        <dataType>BOSUuid</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </parameters>
+            </uiActionRef>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                <key name="name" value="CostEhrDetail" />
+            </entityObjectRef>
+        </operation>
+    </operations>
+    <resource>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本EHR详情列表功能" />
+            <lang locale="zh_HK" value="成本EHR詳情列表功能" />
+            <lang locale="zh_TW" value="成本EHR詳情列表功能" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[ActionRemove].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除" />
+            <lang locale="zh_HK" value="刪除" />
+            <lang locale="zh_TW" value="刪除" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[ActionRemove].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除" />
+            <lang locale="zh_HK" value="刪除" />
+            <lang locale="zh_TW" value="刪除" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[ActionRemove].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[ActionRemove].uiActionRef.parameters.parameter[billid].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[ActionRemove].uiActionRef.parameters.parameter[billid].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[syncMiddata].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步中间表" />
+            <lang locale="zh_HK" value="同步中間表" />
+            <lang locale="zh_TW" value="同步中間表" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[syncMiddata].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[syncMiddata].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[syncMiddata].uiActionRef.parameters.parameter[billID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.mw.pay.app.CostEhrDetailListUIFunction].operations.operation[syncMiddata].uiActionRef.parameters.parameter[billID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+    </resource>
+</functionObject>
+

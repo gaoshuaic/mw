@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.srqr.client</package>
+    <name>ClinicCheckEditUI</name>
+    <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.mw.srqr.client</releasePackage>
+    <releaseClass>ClinicCheckEditUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK>com.kingdee.eas.mw.srqr.ClinicCheck</bizUnitPK>
+    <ruleSet>
+        <key name="package" value="com.kingdee.eas.mw.srqr.app" />
+        <key name="name" value="ClinicCheckRuleSet" />
+    </ruleSet>
+    <parent>
+        <key name="package" value="com.kingdee.eas.framework.client" />
+        <key name="name" value="EditUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>0,0,1013,77</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>kDLabelContainer1</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout1</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer1].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer1].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer2</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer2].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>341,10,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout2</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer2].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer2].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer2].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer3</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer3].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>672,10,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout3</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer3].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer3].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer3].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer4</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,34,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout4</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].properties.property[boundLabelAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contcount</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contcount].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>341,34,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contcount].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contcount].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contcount].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contcount].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contbizdate</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contbizdate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>672,34,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contbizdate].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contbizdate].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contbizdate].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contbizdate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>txtNumber</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtNumber].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtNumber].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDLabelContainer1" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>number</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtName</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtName].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizMultiLangBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="kDLabelContainer2" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>_multiLangItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>name</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtSimpleName</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtSimpleName].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtSimpleName].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDLabelContainer3" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>simpleName</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtDescription</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtDescription].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizMultiLangBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="kDLabelContainer4" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>_multiLangItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>description</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtcount</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>10</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>minimumValue</name>
+                    <type>java.math.BigDecimal</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[minimumValue].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maximumValue</name>
+                    <type>java.math.BigDecimal</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[maximumValue].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>precision</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[precision].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contcount" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>count</bindingField>
+                    <fieldType>java.math.BigDecimal</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>pkbizdate</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[pkbizdate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDDatePicker</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>11</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[pkbizdate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[pkbizdate].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contbizdate" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>bizdate</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>btnPrint</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[btnPrint].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[btnPrint].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>btnPrintPreview</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[btnPrintPreview].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[btnPrintPreview].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemPrint</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[menuItemPrint].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[menuItemPrint].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemPrintPreview</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[menuItemPrintPreview].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[menuItemPrintPreview].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+    </components>
+    <dataObjects>
+        <dataObject>
+            <name>editData</name>
+            <type>com.kingdee.eas.mw.srqr.app.ClinicCheck</type>
+            <objectType>enty</objectType>
+            <herited>true</herited>
+            <userDefined>false</userDefined>
+        </dataObject>
+    </dataObjects>
+    <statuses>
+        <status>
+            <id />
+            <name>ADDNEW</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[ADDNEW].alias</alias>
+            <default />
+            <description>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[ADDNEW].description</description>
+            <herited>false</herited>
+            <userDefined>true</userDefined>
+            <statusItems>
+                <statusItem>
+                    <name>txtName</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtDescription</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtNumber</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtSimpleName</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+            </statusItems>
+        </status>
+        <status>
+            <id />
+            <name>EDIT</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[EDIT].alias</alias>
+            <default />
+            <description>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[EDIT].description</description>
+            <herited>false</herited>
+            <userDefined>true</userDefined>
+            <statusItems>
+                <statusItem>
+                    <name>txtName</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtDescription</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtNumber</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtSimpleName</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+            </statusItems>
+        </status>
+        <status>
+            <id />
+            <name>VIEW</name>
+            <alias>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[VIEW].alias</alias>
+            <default />
+            <description>uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[VIEW].description</description>
+            <herited>false</herited>
+            <userDefined>true</userDefined>
+            <statusItems>
+                <statusItem>
+                    <name>txtName</name>
+                    <visible />
+                    <enabled>false</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtDescription</name>
+                    <visible />
+                    <enabled>false</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtNumber</name>
+                    <visible />
+                    <enabled>false</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtSimpleName</name>
+                    <visible />
+                    <enabled>false</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+            </statusItems>
+        </status>
+    </statuses>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊校验" />
+            <lang locale="zh_HK" value="門診校驗" />
+            <lang locale="zh_TW" value="門診校驗" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[CoreUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[btnPrintPreview].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[btnPrintPreview].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[btnPrint].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[btnPrint].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contbizdate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contbizdate].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contbizdate].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="日期" />
+            <lang locale="zh_HK" value="日期" />
+            <lang locale="zh_TW" value="日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contbizdate].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contbizdate].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contcount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contcount].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contcount].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总数" />
+            <lang locale="zh_HK" value="總數" />
+            <lang locale="zh_TW" value="總數" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contcount].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[contcount].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer1].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码:" />
+            <lang locale="zh_HK" value="編碼:" />
+            <lang locale="zh_TW" value="編碼:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer1].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer2].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer2].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer2].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称:" />
+            <lang locale="zh_HK" value="名稱:" />
+            <lang locale="zh_TW" value="名稱:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer2].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer3].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer3].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer3].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称:" />
+            <lang locale="zh_HK" value="簡稱:" />
+            <lang locale="zh_TW" value="簡稱:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer3].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].properties.property[boundLabelAlignment].value">
+            <lang locale="en_US" value="7" />
+            <lang locale="zh_CN" value="7" />
+            <lang locale="zh_HK" value="7" />
+            <lang locale="zh_TW" value="7" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述:" />
+            <lang locale="zh_HK" value="描述:" />
+            <lang locale="zh_TW" value="描述:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[kDLabelContainer4].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[menuItemPrintPreview].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[menuItemPrintPreview].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[menuItemPrint].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[menuItemPrint].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[pkbizdate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="日期" />
+            <lang locale="zh_HK" value="日期" />
+            <lang locale="zh_TW" value="日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[pkbizdate].extendedProperty.addedByBIM">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[pkbizdate].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[pkbizdate].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtDescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtNumber].properties.property[maxLength].value">
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_CN" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtSimpleName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtSimpleName].properties.property[maxLength].value">
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_CN" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总数" />
+            <lang locale="zh_HK" value="總數" />
+            <lang locale="zh_TW" value="總數" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[dataType].value">
+            <lang locale="en_US" value="1" />
+            <lang locale="zh_CN" value="1" />
+            <lang locale="zh_HK" value="1" />
+            <lang locale="zh_TW" value="1" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[maximumValue].value">
+            <lang locale="en_US" value="&quot;1.0E18&quot;" />
+            <lang locale="zh_CN" value="&quot;1.0E18&quot;" />
+            <lang locale="zh_HK" value="&quot;1.0E18&quot;" />
+            <lang locale="zh_TW" value="&quot;1.0E18&quot;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[minimumValue].value">
+            <lang locale="en_US" value="&quot;-1.0E18&quot;" />
+            <lang locale="zh_CN" value="&quot;-1.0E18&quot;" />
+            <lang locale="zh_HK" value="&quot;-1.0E18&quot;" />
+            <lang locale="zh_TW" value="&quot;-1.0E18&quot;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[precision].value">
+            <lang locale="en_US" value="10" />
+            <lang locale="zh_CN" value="10" />
+            <lang locale="zh_HK" value="10" />
+            <lang locale="zh_TW" value="10" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].components.component[txtcount].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单级基础资料模板界面" />
+            <lang locale="zh_HK" value="單級基礎資料範本介面" />
+            <lang locale="zh_TW" value="單級基礎資料範本介面" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="DataBase" />
+            <lang locale="zh_CN" value="DataBase" />
+            <lang locale="zh_TW" value="DataBase" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].extendedProperty.bimUIType">
+            <lang locale="en_US" value="EditUI" />
+            <lang locale="zh_CN" value="EditUI" />
+            <lang locale="zh_TW" value="EditUI" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[ADDNEW].alias">
+            <lang locale="en_US" value="AddNew" />
+            <lang locale="zh_CN" value="AddNew" />
+            <lang locale="zh_HK" value="AddNew" />
+            <lang locale="zh_TW" value="AddNew" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[ADDNEW].description">
+            <lang locale="en_US" value="AddNew" />
+            <lang locale="zh_CN" value="AddNew" />
+            <lang locale="zh_HK" value="AddNew" />
+            <lang locale="zh_TW" value="AddNew" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[EDIT].alias">
+            <lang locale="en_US" value="EDIT" />
+            <lang locale="zh_CN" value="EDIT" />
+            <lang locale="zh_HK" value="EDIT" />
+            <lang locale="zh_TW" value="EDIT" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[EDIT].description">
+            <lang locale="en_US" value="EDIT" />
+            <lang locale="zh_CN" value="EDIT" />
+            <lang locale="zh_HK" value="EDIT" />
+            <lang locale="zh_TW" value="EDIT" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[VIEW].alias">
+            <lang locale="en_US" value="View" />
+            <lang locale="zh_CN" value="View" />
+            <lang locale="zh_HK" value="View" />
+            <lang locale="zh_TW" value="View" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].statuses.status[VIEW].description">
+            <lang locale="en_US" value="View" />
+            <lang locale="zh_CN" value="View" />
+            <lang locale="zh_HK" value="View" />
+            <lang locale="zh_TW" value="View" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.mw.srqr.client.ClinicCheckEditUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊校验" />
+            <lang locale="zh_HK" value="門診校驗" />
+            <lang locale="zh_TW" value="門診校驗" />
+        </rs>
+    </resource>
+</uiObject>
+

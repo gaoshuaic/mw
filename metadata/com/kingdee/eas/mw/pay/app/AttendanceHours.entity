@@ -1,0 +1,2520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.mw.pay.app</package>
+    <name>AttendanceHours</name>
+    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].alias</alias>
+    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].description</description>
+    <userDefined>true</userDefined>
+    <bosType>6F469034</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.mw.pay.AttendanceHours</businessImplName>
+    <businessControllerName>com.kingdee.eas.mw.pay.app.AttendanceHoursController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].description</description>
+            <innerID>6a2b5a99-1acc-4108-a8fb-d94d7d57a305</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].description</description>
+            <innerID>1621402f-89fe-4cf6-ba66-d379ed8e368a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].description</description>
+            <innerID>6230339e-e7b8-492b-ab94-c98877e3e2e6</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].description</description>
+            <innerID>d448fe86-c189-4cc8-b993-9761fe1e1eab</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].description</description>
+            <innerID>f9f16668-cbd0-4276-8a69-379700b76dd3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].description</description>
+            <innerID>2e91a326-f992-47dd-b424-a73e8cdd60ce</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.mw.pay.AttendanceHours</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+        <key name="name" value="CT_PAY_AttendanceHours" />
+    </table>
+    <properties>
+        <ownProperty>
+            <name>mzNumber</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFMzNumber" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>mzName</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFMzName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>empNumber</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFEmpNumber" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>empName</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFEmpName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>businessDate</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFBusinessDate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>attrHours</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFAttrHours" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>importDate</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFImportDate" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <events>
+        <event>
+            <name>submitEvent</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>dfd2c083-00fa-1000-e000-001fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="submit" />
+                        <key name="innerID" value="dfd2c083-00fa-1000-e000-001fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>deleteEvent</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>be5779dd-00fe-1000-e000-0007c0a813a9</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="delete" />
+                        <key name="innerID" value="be5779dd-00fe-1000-e000-0007c0a813a9" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>passAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000ec0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="passAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000ec0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>unpassAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="unpassAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.mw.pay.app.AttendanceHours</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>SyncItemFirstClass</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>29b21edd-aa8d-4450-bf44-2f29d2d1b010</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].eventMethods.eventMethod[29b21edd-aa8d-4450-bf44-2f29d2d1b010].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].eventMethods.eventMethod[29b21edd-aa8d-4450-bf44-2f29d2d1b010].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="SyncItemFirstClass" />
+                        <key name="innerID" value="29b21edd-aa8d-4450-bf44-2f29d2d1b010" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].eventMethods.eventMethod[29b21edd-aa8d-4450-bf44-2f29d2d1b010].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].eventMethods.eventMethod[29b21edd-aa8d-4450-bf44-2f29d2d1b010].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>25663ff1-8ed7-4127-8741-a453cf58e5c0evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>dataBase</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].formalParameters.formalParameter.parameter[dataBase].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].formalParameters.formalParameter.parameter[dataBase].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>SyncItemSecondClass</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>c8dd0e5d-1743-4955-98cf-7dd44b99448e</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="SyncItemSecondClass" />
+                        <key name="innerID" value="c8dd0e5d-1743-4955-98cf-7dd44b99448e" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>1a20a16f-a548-499d-868b-6d983c603fefevfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>dataBase</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].formalParameters.formalParameter.parameter[dataBase].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].formalParameters.formalParameter.parameter[dataBase].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>SyncItem</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>a36f991f-135e-4f1e-8029-fe9cf6d54ba9</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].eventMethods.eventMethod[a36f991f-135e-4f1e-8029-fe9cf6d54ba9].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].eventMethods.eventMethod[a36f991f-135e-4f1e-8029-fe9cf6d54ba9].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="SyncItem" />
+                        <key name="innerID" value="a36f991f-135e-4f1e-8029-fe9cf6d54ba9" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].eventMethods.eventMethod[a36f991f-135e-4f1e-8029-fe9cf6d54ba9].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].eventMethods.eventMethod[a36f991f-135e-4f1e-8029-fe9cf6d54ba9].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>6cd3d092-25ac-4c93-aaaf-ed246675d441evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>dataBase</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].formalParameters.formalParameter.parameter[dataBase].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].formalParameters.formalParameter.parameter[dataBase].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>SyncItemCity</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>c8dd0e5d-1743-4955-98cf-7dd44b99448e</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="SyncItemSecondClass" />
+                        <key name="innerID" value="c8dd0e5d-1743-4955-98cf-7dd44b99448e" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>cedf40ca-ab76-4e67-a088-4c71ba7c1bc2evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>dataBase</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].formalParameters.formalParameter.parameter[dataBase].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].formalParameters.formalParameter.parameter[dataBase].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>SyncClinicCheck</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>a5bfa23c-c109-410d-955b-b398b090ee14</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].eventMethods.eventMethod[a5bfa23c-c109-410d-955b-b398b090ee14].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].eventMethods.eventMethod[a5bfa23c-c109-410d-955b-b398b090ee14].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="SyncClinicCheck" />
+                        <key name="innerID" value="a5bfa23c-c109-410d-955b-b398b090ee14" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].eventMethods.eventMethod[a5bfa23c-c109-410d-955b-b398b090ee14].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].eventMethods.eventMethod[a5bfa23c-c109-410d-955b-b398b090ee14].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>1b66cde6-a453-4cc0-a3f3-5a37be998396evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>dataBase</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].formalParameters.formalParameter.parameter[dataBase].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].formalParameters.formalParameter.parameter[dataBase].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>setAchieveSum</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>62171eb0-228b-434b-8729-12d947fefde4</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="setAchieveSum" />
+                        <key name="innerID" value="62171eb0-228b-434b-8729-12d947fefde4" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>55052ba7-24e9-4ad4-8570-3f1d7dc14740evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>dataBase</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].formalParameters.formalParameter.parameter[dataBase].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].formalParameters.formalParameter.parameter[dataBase].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>5c1b4758-f209-44e8-9900-512c6e9eee6cevfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>cityNumber</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].formalParameters.formalParameter.parameter[cityNumber].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].formalParameters.formalParameter.parameter[cityNumber].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>SyncClinicMonthSum</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>62171eb0-228b-434b-8729-12d947fefde4</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="setAchieveSum" />
+                        <key name="innerID" value="62171eb0-228b-434b-8729-12d947fefde4" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>ea1903a2-a49e-417e-8dfa-7d28ea60958cevfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>dataBase</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].formalParameters.formalParameter.parameter[dataBase].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].formalParameters.formalParameter.parameter[dataBase].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>putCostDetailAndAll</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>d3254dbe-4d25-4ed4-90ac-b4e4d708479d</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].eventMethods.eventMethod[d3254dbe-4d25-4ed4-90ac-b4e4d708479d].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].eventMethods.eventMethod[d3254dbe-4d25-4ed4-90ac-b4e4d708479d].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="putCostDetailAndAll" />
+                        <key name="innerID" value="d3254dbe-4d25-4ed4-90ac-b4e4d708479d" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].eventMethods.eventMethod[d3254dbe-4d25-4ed4-90ac-b4e4d708479d].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].eventMethods.eventMethod[d3254dbe-4d25-4ed4-90ac-b4e4d708479d].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+        </event>
+        <event>
+            <name>initBaseDate</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>2aa4ae34-1390-4e9d-9c4e-9dfa0d46fa64</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].eventMethods.eventMethod[2aa4ae34-1390-4e9d-9c4e-9dfa0d46fa64].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].eventMethods.eventMethod[2aa4ae34-1390-4e9d-9c4e-9dfa0d46fa64].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="initBaseDate" />
+                        <key name="innerID" value="2aa4ae34-1390-4e9d-9c4e-9dfa0d46fa64" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].eventMethods.eventMethod[2aa4ae34-1390-4e9d-9c4e-9dfa0d46fa64].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].eventMethods.eventMethod[2aa4ae34-1390-4e9d-9c4e-9dfa0d46fa64].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>7674e75d-ee50-4bd8-9786-f7ea0cfb0eaaevfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>businessDate</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].formalParameters.formalParameter.parameter[businessDate].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].formalParameters.formalParameter.parameter[businessDate].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>splitFentanDate</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>3852a8ca-046e-49ba-8334-05434ef19222</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].eventMethods.eventMethod[3852a8ca-046e-49ba-8334-05434ef19222].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].eventMethods.eventMethod[3852a8ca-046e-49ba-8334-05434ef19222].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="splitFentanDate" />
+                        <key name="innerID" value="3852a8ca-046e-49ba-8334-05434ef19222" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].eventMethods.eventMethod[3852a8ca-046e-49ba-8334-05434ef19222].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].eventMethods.eventMethod[3852a8ca-046e-49ba-8334-05434ef19222].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>386a9cfc-4d6b-4641-8c53-515785ea2199evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>businessDate</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].formalParameters.formalParameter.parameter[businessDate].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].formalParameters.formalParameter.parameter[businessDate].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>syncEHRAchieve</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>3ea097ad-9a08-4381-8f8f-5c37012c35de</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].eventMethods.eventMethod[3ea097ad-9a08-4381-8f8f-5c37012c35de].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].eventMethods.eventMethod[3ea097ad-9a08-4381-8f8f-5c37012c35de].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="syncEHRAchieve" />
+                        <key name="innerID" value="3ea097ad-9a08-4381-8f8f-5c37012c35de" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].eventMethods.eventMethod[3ea097ad-9a08-4381-8f8f-5c37012c35de].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].eventMethods.eventMethod[3ea097ad-9a08-4381-8f8f-5c37012c35de].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>7a33d067-fc79-450c-91ec-808426984cdbevfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>businessdate</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].formalParameters.formalParameter.parameter[businessdate].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].formalParameters.formalParameter.parameter[businessdate].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>SyncCostAchieve</name>
+            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].alias</alias>
+            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>3ec7ea01-5bd9-4fdb-8d63-90e67f0e73b2</name>
+                    <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].eventMethods.eventMethod[3ec7ea01-5bd9-4fdb-8d63-90e67f0e73b2].alias</alias>
+                    <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].eventMethods.eventMethod[3ec7ea01-5bd9-4fdb-8d63-90e67f0e73b2].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.mw.pay.app" />
+                        <key name="name" value="SyncDataFacade" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="SyncCostAchieve" />
+                        <key name="innerID" value="3ec7ea01-5bd9-4fdb-8d63-90e67f0e73b2" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].eventMethods.eventMethod[3ec7ea01-5bd9-4fdb-8d63-90e67f0e73b2].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].eventMethods.eventMethod[3ec7ea01-5bd9-4fdb-8d63-90e67f0e73b2].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>a4d26510-9500-4a9b-888f-f44dc7a266baevfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>businessdate</name>
+                        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].formalParameters.formalParameter.parameter[businessdate].alias</alias>
+                        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].formalParameters.formalParameter.parameter[businessdate].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+    </events>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].defaultViewdescription</description>
+        <filter>
+            <maskString />
+        </filter>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出勤时数" />
+            <lang locale="zh_HK" value="出勤時數" />
+            <lang locale="zh_TW" value="出勤時數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].defaultView.filterextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步门诊校验" />
+            <lang locale="zh_HK" value="同步門診校驗" />
+            <lang locale="zh_TW" value="同步門診校驗" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].eventMethods.eventMethod[a5bfa23c-c109-410d-955b-b398b090ee14].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].eventMethods.eventMethod[a5bfa23c-c109-410d-955b-b398b090ee14].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].eventMethods.eventMethod[a5bfa23c-c109-410d-955b-b398b090ee14].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].eventMethods.eventMethod[a5bfa23c-c109-410d-955b-b398b090ee14].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].formalParameters.formalParameter.parameter[dataBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicCheck].formalParameters.formalParameter.parameter[dataBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步门诊月汇总" />
+            <lang locale="zh_HK" value="同步門診月匯總" />
+            <lang locale="zh_TW" value="同步門診月匯總" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].formalParameters.formalParameter.parameter[dataBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncClinicMonthSum].formalParameters.formalParameter.parameter[dataBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="根据成本核对数据" />
+            <lang locale="zh_HK" value="根據成本核對數據" />
+            <lang locale="zh_TW" value="根據成本核對數據" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].eventMethods.eventMethod[3ec7ea01-5bd9-4fdb-8d63-90e67f0e73b2].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].eventMethods.eventMethod[3ec7ea01-5bd9-4fdb-8d63-90e67f0e73b2].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].eventMethods.eventMethod[3ec7ea01-5bd9-4fdb-8d63-90e67f0e73b2].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].eventMethods.eventMethod[3ec7ea01-5bd9-4fdb-8d63-90e67f0e73b2].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].formalParameters.formalParameter.parameter[businessdate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncCostAchieve].formalParameters.formalParameter.parameter[businessdate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步收费项目城市" />
+            <lang locale="zh_HK" value="同步收費項目城市" />
+            <lang locale="zh_TW" value="同步收費項目城市" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].formalParameters.formalParameter.parameter[dataBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemCity].formalParameters.formalParameter.parameter[dataBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步收费项目一级分类" />
+            <lang locale="zh_HK" value="同步收費項目一級分類" />
+            <lang locale="zh_TW" value="同步收費項目一級分類" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].eventMethods.eventMethod[29b21edd-aa8d-4450-bf44-2f29d2d1b010].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].eventMethods.eventMethod[29b21edd-aa8d-4450-bf44-2f29d2d1b010].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].eventMethods.eventMethod[29b21edd-aa8d-4450-bf44-2f29d2d1b010].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].eventMethods.eventMethod[29b21edd-aa8d-4450-bf44-2f29d2d1b010].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].formalParameters.formalParameter.parameter[dataBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemFirstClass].formalParameters.formalParameter.parameter[dataBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步收费项目二级分类" />
+            <lang locale="zh_HK" value="同步收費項目二級分類" />
+            <lang locale="zh_TW" value="同步收費項目二級分類" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].eventMethods.eventMethod[c8dd0e5d-1743-4955-98cf-7dd44b99448e].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].formalParameters.formalParameter.parameter[dataBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItemSecondClass].formalParameters.formalParameter.parameter[dataBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步收费项目" />
+            <lang locale="zh_HK" value="同步收費項目" />
+            <lang locale="zh_TW" value="同步收費項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].eventMethods.eventMethod[a36f991f-135e-4f1e-8029-fe9cf6d54ba9].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].eventMethods.eventMethod[a36f991f-135e-4f1e-8029-fe9cf6d54ba9].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].eventMethods.eventMethod[a36f991f-135e-4f1e-8029-fe9cf6d54ba9].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].eventMethods.eventMethod[a36f991f-135e-4f1e-8029-fe9cf6d54ba9].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].formalParameters.formalParameter.parameter[dataBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[SyncItem].formalParameters.formalParameter.parameter[dataBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="初始化基础数据" />
+            <lang locale="zh_HK" value="初始化基礎數據" />
+            <lang locale="zh_TW" value="初始化基礎數據" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].eventMethods.eventMethod[2aa4ae34-1390-4e9d-9c4e-9dfa0d46fa64].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].eventMethods.eventMethod[2aa4ae34-1390-4e9d-9c4e-9dfa0d46fa64].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].eventMethods.eventMethod[2aa4ae34-1390-4e9d-9c4e-9dfa0d46fa64].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].eventMethods.eventMethod[2aa4ae34-1390-4e9d-9c4e-9dfa0d46fa64].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].formalParameters.formalParameter.parameter[businessDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[initBaseDate].formalParameters.formalParameter.parameter[businessDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生成成本数据" />
+            <lang locale="zh_HK" value="生成成本數據" />
+            <lang locale="zh_TW" value="生成成本數據" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].eventMethods.eventMethod[d3254dbe-4d25-4ed4-90ac-b4e4d708479d].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].eventMethods.eventMethod[d3254dbe-4d25-4ed4-90ac-b4e4d708479d].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].eventMethods.eventMethod[d3254dbe-4d25-4ed4-90ac-b4e4d708479d].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[putCostDetailAndAll].eventMethods.eventMethod[d3254dbe-4d25-4ed4-90ac-b4e4d708479d].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="设置业绩汇总" />
+            <lang locale="zh_HK" value="設置業績匯總" />
+            <lang locale="zh_TW" value="設置業績匯總" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].eventMethods.eventMethod[62171eb0-228b-434b-8729-12d947fefde4].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].formalParameters.formalParameter.parameter[cityNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].formalParameters.formalParameter.parameter[cityNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].formalParameters.formalParameter.parameter[dataBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[setAchieveSum].formalParameters.formalParameter.parameter[dataBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="拆分分摊数据" />
+            <lang locale="zh_HK" value="拆分分攤數據" />
+            <lang locale="zh_TW" value="拆分分攤數據" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].eventMethods.eventMethod[3852a8ca-046e-49ba-8334-05434ef19222].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].eventMethods.eventMethod[3852a8ca-046e-49ba-8334-05434ef19222].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].eventMethods.eventMethod[3852a8ca-046e-49ba-8334-05434ef19222].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].eventMethods.eventMethod[3852a8ca-046e-49ba-8334-05434ef19222].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].formalParameters.formalParameter.parameter[businessDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[splitFentanDate].formalParameters.formalParameter.parameter[businessDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步ehr报表数据" />
+            <lang locale="zh_HK" value="同步ehr報表數據" />
+            <lang locale="zh_TW" value="同步ehr報表數據" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].eventMethods.eventMethod[3ea097ad-9a08-4381-8f8f-5c37012c35de].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].eventMethods.eventMethod[3ea097ad-9a08-4381-8f8f-5c37012c35de].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].eventMethods.eventMethod[3ea097ad-9a08-4381-8f8f-5c37012c35de].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].eventMethods.eventMethod[3ea097ad-9a08-4381-8f8f-5c37012c35de].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].formalParameters.formalParameter.parameter[businessdate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[syncEHRAchieve].formalParameters.formalParameter.parameter[businessdate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.app.AttendanceHoursQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.app.AttendanceHoursQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.app.AttendanceHoursQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.AttendanceHoursEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.AttendanceHoursEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.AttendanceHoursEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].extendedProperty.genBusinessImplCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.mw.pay.client.AttendanceHoursListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.mw.pay.client.AttendanceHoursListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.mw.pay.client.AttendanceHoursListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出勤时数" />
+            <lang locale="zh_HK" value="出勤時數" />
+            <lang locale="zh_TW" value="出勤時數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出勤时数" />
+            <lang locale="zh_HK" value="出勤時數" />
+            <lang locale="zh_TW" value="出勤時數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[attrHours].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期(年月)" />
+            <lang locale="zh_HK" value="業務日期(年月)" />
+            <lang locale="zh_TW" value="業務日期(年月)" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期(年月)" />
+            <lang locale="zh_HK" value="業務日期(年月)" />
+            <lang locale="zh_TW" value="業務日期(年月)" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[businessDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工姓名" />
+            <lang locale="zh_HK" value="員工姓名" />
+            <lang locale="zh_TW" value="員工姓名" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工姓名" />
+            <lang locale="zh_HK" value="員工姓名" />
+            <lang locale="zh_TW" value="員工姓名" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工编码" />
+            <lang locale="zh_HK" value="員工編碼" />
+            <lang locale="zh_TW" value="員工編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工编码" />
+            <lang locale="zh_HK" value="員工編碼" />
+            <lang locale="zh_TW" value="員工編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[empNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="导入日期" />
+            <lang locale="zh_HK" value="導入日期" />
+            <lang locale="zh_TW" value="導入日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="导入日期" />
+            <lang locale="zh_HK" value="導入日期" />
+            <lang locale="zh_TW" value="導入日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[importDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊名称" />
+            <lang locale="zh_HK" value="門診名稱" />
+            <lang locale="zh_TW" value="門診名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊名称" />
+            <lang locale="zh_HK" value="門診名稱" />
+            <lang locale="zh_TW" value="門診名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊编码" />
+            <lang locale="zh_HK" value="門診編碼" />
+            <lang locale="zh_TW" value="門診編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="门诊编码" />
+            <lang locale="zh_HK" value="門診編碼" />
+            <lang locale="zh_TW" value="門診編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.mw.pay.app.AttendanceHours].properties.ownProperty[mzNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+
